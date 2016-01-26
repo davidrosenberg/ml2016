@@ -17,7 +17,7 @@ cp index.html favicon.ico out/
 mkdir out/styles/
 cp styles/*.css out/styles/
 
-cp -r refs images homework fonts scripts docs out/
+cp -r images fonts scripts out/
 
 echo ""
 find out/ -print
