@@ -1,0 +1,581 @@
+@import "colors"
+
+nav-width = 60px
+body-padding = 40px
+body-left = nav-width + body-padding
+
+font-largest =
+  font-size: 46px
+
+  @media(max-width: 420px)
+    font-size: 24px
+
+font-large =
+  font-size: 36px
+
+  @media(max-width: 420px)
+    font-size: 20px
+
+font-medium =
+  font-size: 20px
+
+  @media(max-width: 420px)
+    font-size: 16px
+
+font-small =
+  font-size: 16px
+
+  @media(max-width: 420px)
+    font-size: 14px
+
+font-smallest =
+  font-size: 14px
+
+@font-face
+  font-family: "Glyphicons Halflings"
+  src: url("../fonts/glyphicons-halflings-regular.woff2") format("woff2"),
+       url("../fonts/glyphicons-halflings-regular.woff") format("woff")
+
+icon-home =
+  content: "\e021"
+icon-info-sign =
+  content: "\e086"
+icon-calendar =
+  content: "\e109"
+icon-list =
+  content: "\e012"
+icon-star =
+  content: "\e006"
+icon-user =
+  content: "\e008"
+icon-book =
+  content: "\e043"
+icon-pencil =
+  content: "\270f"
+icon-envelope =
+  content: "\2709"
+icon-new-window =
+  content: "\e164"
+icon-save =
+  content: "\e166"
+icon-video =
+  content: "\e059"
+
+
+*, *::before, *::after
+  margin: 0
+  padding: 0
+  box-sizing: border-box
+
+body
+  padding: body-padding
+  padding-left: body-left
+  padding-top: 0
+  line-height: 1.6em
+
+  color: body-color
+  font-family: Helvetica, Arial, sans-serif
+
+  background-color: bg-gray
+
+a
+  text-decoration: none
+  color: accent
+
+  &:hover
+    color: accent-hover
+
+h1
+  text-transform: uppercase
+  line-height: normal
+
+p
+  margin: 16px 0
+
+  {font-small}
+  line-height: 1.6em
+
+  &:first-child
+    margin-top: 0
+
+  &:last-child
+    margin-bottom: 0
+
+.module
+  background: white
+  border-radius: 8px
+  padding: 20px
+  box-shadow: 0 0 5px rgba(0,0,0,0.12)
+
+.icon
+  &::before
+    font-family: "Glyphicons Halflings"
+    opacity: 0.4
+    margin-right: 10px
+    vertical-align: middle
+    color: accent
+
+  &.pdf::before
+    {icon-new-window}
+
+  &.zip::before
+    {icon-save}
+
+body > nav
+  position: fixed
+  top: 0
+  left: 0
+  z-index: 2
+
+  width: nav-width
+  height: 100%
+
+  background-color: accent
+  box-shadow: 0 0 10px rgba(0,0,0,0.3)
+
+  > a
+    position: relative
+
+    display: block
+    width: 60px
+    height: nav-width
+    padding: 10px 10px 10px 10px
+    box-sizing: border-box
+    border-bottom: 1px solid accent-hover
+
+    {font-smallest}
+    font-weight: bold
+    letter-spacing: .03em
+    text-transform: uppercase
+    text-align: left
+    color: white
+    white-space: nowrap
+    line-height: 42px
+
+    background-color: accent
+    overflow: hidden
+    transition: width ease .2s, color ease .2s, background-color ease .2s
+
+    &:hover
+      width: 200px
+      box-shadow: 0 0 5px rgba(0,0,0,0.3)
+
+      color: white
+
+    &.selected
+      border-bottom: none
+
+      color: accent
+
+      background: white
+
+    &::before
+      float: left
+
+      display: inline-block
+      width: nav-width
+      height: nav-width
+      margin: -10px 15px 0 -10px
+
+      {font-medium}
+      font-family: "Glyphicons Halflings"
+      font-style: normal
+      font-weight: normal
+      letter-spacing: normal
+      line-height: 60px
+      text-align: center
+      vertical-align: middle
+      -webkit-font-smoothing: antialiased
+      -moz-osx-font-smoothing: grayscale
+
+    &[href="#home"]::before
+      {icon-home}
+    &[href="#about"]::before
+      {icon-info-sign}
+    &[href="#resources"]::before
+      {icon-book}
+    &[href="#lectures"]::before
+      {icon-calendar}
+    &[href="#assignments"]::before
+      {icon-list}
+    &[href="#project"]::before
+      {icon-star}
+    &[href="#people"]::before
+      {icon-user}
+
+body > section
+  border-bottom: 1px solid gray
+  padding-bottom: 70px
+  padding-top: 20px
+
+  > h1
+    margin-bottom: 40px
+
+    {font-large}
+
+  > section:not(:last-of-type)
+    margin-bottom: 30px
+
+  > section > h1
+    margin-bottom: 10px
+
+    {font-medium}
+
+#home
+  text-align: center
+  padding-top: body-padding
+
+  > h1
+    {font-largest}
+    text-align: left
+
+    margin-bottom: 50px
+
+    > span
+      display: block
+      margin-top: 5px
+
+      {font-medium}
+
+    .department
+      {font-small}
+      vertical-align: middle
+
+#course-info
+  margin: 10px auto
+  text-align: left
+
+  th
+    font-weight: bold
+    min-width: 170px
+    vertical-align: top
+
+    {font-medium}
+    color: accent
+    text-transform: uppercase
+
+    opacity: 0.6
+
+  tr:last-of-type
+    line-height: 1
+
+  .email::before
+    {icon-envelope}
+    margin-left: 5px
+
+#this-week
+  margin: 30px auto 0 auto
+
+  width: 1220px
+  @media screen and (max-width: 1340px)
+    width: 670px
+
+  text-align: left
+
+  li, p
+    line-height: 1.1
+
+  li
+    margin-bottom: 10px
+
+  > h1
+    {font-large}
+    opacity: 0.6
+
+  .week-summary
+    display: -webkit-flex
+    display: flex
+    -webkit-flex-wrap: wrap
+    flex-wrap: wrap
+    -webkit-justify-content: center
+    justify-content: center
+
+    padding: 25px
+    border: 2px solid accent
+    border-radius: 8px
+
+    {font-small}
+
+    background-color: white
+    box-shadow: 0 0 5px rgba(0,0,0,0.12)
+
+  h1
+    font-weight: bold
+    text-transform: uppercase
+    padding-bottom: 10px
+
+  ul
+    list-style-type: none
+
+  section
+    width: 250px
+    margin: 5px 20px
+
+    vertical-align: top
+
+    &.assignment
+      > p
+        margin-top: 0
+
+      .files
+        display: -webkit-flex
+        display: flex
+        -webkit-justify-content: space-between
+        justify-content: space-between
+        -webkit-flex-wrap: wrap
+        flex-wrap: wrap
+
+    &.slides-and-notes
+      ul:empty::after
+        content: "(None yet)"
+
+#about
+  .module
+    margin-bottom: 30px
+
+  ul
+    margin-left: 20px
+
+#textbooks
+  img
+    height: 200px
+    margin: 0 10px 10px 0
+
+  dd
+    margin-bottom: 10px
+
+  cite
+    font-weight: bold
+
+#references
+  ul
+    margin-top: 10px
+
+#lectures
+  > .abbreviations
+    margin-bottom: 20px
+    list-style-type: none
+
+#lectures > section
+  display: table
+  width: 100%
+  margin-bottom: 20px
+  {font-smallest}
+
+  .label
+    width: 20%
+  .references
+    width: 25%
+  .slides
+    width: 20%
+
+  li
+    line-height: normal
+    margin-bottom: 10px
+
+  h1
+    margin-bottom: 15px
+
+  .date, .video
+    display: block
+    margin-top: 5px
+
+  .date
+    color: accent
+    font-size: 0.9em
+    opacity: 0.6
+
+  .video
+    font-size: 0.85em
+
+    &::after
+      font-family: "Glyphicons Halflings"
+      margin-left: 5px
+      vertical-align: top
+      {icon-video}
+
+  ul
+    list-style-type: none
+
+  .topics, .references
+    padding-right: 60px
+
+  .references > ul:empty::after
+    content: "(None)"
+
+  .icon
+    &.references, &.slides
+      &::before
+        position: absolute
+        left: -42px
+        top: 20px
+
+        font-size: 30px
+
+    &.references::before
+      {icon-book}
+
+    &.slides::before
+      {icon-pencil}
+
+    &.video::before
+      {icon-video}
+
+  > section
+    display: table-row
+
+    &:first-of-type > div
+      padding-top: 0
+
+      &.icon::before
+        top: 0
+
+    > div
+      position: relative
+
+      display: table-cell
+      padding-right: 20px
+      padding-top: 20px
+
+      vertical-align: top
+
+      &:first-of-type
+        padding-left: 20px
+
+      > h1
+        margin-bottom: 10px
+
+#assignments
+  .policies
+    margin-bottom: 30px
+
+  .homework
+    margin-bottom: 20px
+
+    strong
+      text-transform: uppercase
+      display: block
+
+    .module
+      display: inline-block
+      vertical-align: middle
+      max-width: 600px
+      width: 100%
+
+      > *
+        display: table-cell
+        padding-right: 40px
+
+        &:last-of-type
+          padding-right: 0
+
+    .title
+      width: 250px
+
+      > h1
+        line-height: 1.6em
+        white-space: nowrap
+
+      > p
+        margin-top: 0
+
+    .deadline
+      width: 250px
+
+    .files
+      width: 100px
+
+  .submit, .solutions
+    display: inline-block
+    vertical-align: middle
+    margin-top: 5px
+    margin-left: 30px
+
+  .submit
+    text-align: center
+
+    .icon
+      margin-bottom: 5px
+
+      &::before
+        {icon-envelope}
+        font-size: 32px
+        margin-right: 0
+
+    a:hover
+      color: accent
+
+      .icon::before
+        opacity: 1
+
+#people
+  > section:not(:last-of-type)
+    margin-bottom: 50px
+
+  > section.multiple-people
+    margin-bottom: 30px
+
+    ul
+      display: -webkit-flex
+      display: flex
+
+      -webkit-flex-flow: row nowrap
+      flex-flow: row nowrap
+
+      @media screen and (max-width: 1250px)
+        -webkit-flex-wrap: wrap
+        flex-wrap: wrap
+
+      @media screen and (max-width: 900px)
+        display: block
+
+        .person
+          margin-right: 0
+
+  ul
+    list-style-type: none
+
+  .person
+    display: -webkit-flex
+    display: flex
+
+    margin-right: 20px
+    margin-bottom: 20px
+
+    -webkit-flex: 0 1 33%
+    flex: 0 1 33%
+
+    @media screen and (max-width: 1250px)
+      -webkit-flex-basis: 45%
+      flex-basis: 45%
+
+    &:last-child
+      margin-right: 0
+
+    &.instructor
+      width: 560px
+
+    > img
+      width: 150px
+      height: 150px
+      margin-right: 20px
+      border-radius: 8px
+
+      -webkit-flex: 0 0 auto
+      flex: 0 0 auto
+
+    > .info
+      > p
+        margin: 0 5px
+
+        &.name
+          font-weight: bold
+
+        &.email
+          overflow: hidden
+          text-overflow: ellipsis
+
+        &.bio
+          margin-top: 10px
+
+          {font-smallest}

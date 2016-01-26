@@ -1,0 +1,35 @@
+{{#each this}}
+    <section class="module" id="{{lectureSlug this}}">
+    <h1>{{Title}}</h1>
+
+        {{#each Events}}
+            <section>
+                <div class="label">
+                    <h1>
+                        {{Label}}
+                        <span class="date">{{shortDate @key}}</span>
+                        {{#if Video}}
+                            <a class="video" href="{{Video}}">Video</a>
+                        {{/if}}
+                    </h1>
+                </div>
+                <div class="topics">
+                    <ul>
+                        {{#each Topics}}
+                            <li>{{@key}}</li>
+                        {{/each}}
+                    </ul>
+                </div>
+                <div class="references icon">
+                    <h1>References</h1>
+
+                    {{> _references }}
+                </div>
+                <div class="slides icon">
+                    <h1>Slides and Notes</h1>
+                    <ul>{{#each [Slides and Notes]}}<li>{{maybeLink this}}</li>{{/each}}</ul>
+                </div>
+            </section>
+        {{/each}}
+    </section>
+{{/each}}

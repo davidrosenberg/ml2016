@@ -1,0 +1,5 @@
+{{!-- Squashing the Handlebars against the <ul> and </ul> is important so that :empty works --}}
+<ul>{{#each [References (Pre)]}}
+        <li>{{maybeLink this}} (Pre)</li>
+    {{/each}}{{#each [References (Supplemental)]}}
+        <li>{{maybeLink this}}</li>{{/each}}</ul>

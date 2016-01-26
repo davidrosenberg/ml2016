@@ -1,0 +1,331 @@
+#http://techtalks.tv/machine-learning-nyu-spring-2015/
+-
+  Title: Week 1
+  Events:
+    2015-01-28:
+      Label: Lecture
+#      Video: "http://techtalks.tv/talks/lecture-1-9/61396/"
+      Topics:
+        Course mechanics:
+          References (Supplemental):
+            - {KPM Ch 1: "http://www.cs.ubc.ca/~murphyk/MLbook/pml-intro-22may12.pdf"}
+          Slides and Notes:
+            - {Course Logistics: "docs/1a.course-logistics.pdf"}
+        Statistical learning theory framework:
+          References (Pre):
+            - Math review notes
+          Slides and Notes:
+            - {Statistical Learning Theory: "docs/1b.intro-slt-riskdecomp.pdf"}
+        Excess risk decomposition:
+        Gradient and stochastic gradient descent:
+          References (Supplemental):
+            - {Bottou's SGD Tricks: "refs/bottou-sgd-tricks-2012.pdf"}
+            - BV Preface, Ch 1
+          Slides and Notes:
+            - {Stochastic Gradient Descent: "docs/1c.stoch-grad-descent.pdf"}
+    2015-01-29:
+      Label: Lab
+#      Video: "http://techtalks.tv/talks/lab-1/61397/"
+      Topics:
+        Matrix differentiation (Levent Sagun):
+          References (Supplemental):
+            - {Barnes's "Matrix Differentiation" notes: "http://www.atmos.washington.edu/~dennis/MatrixCalculus.pdf"}
+            - {Felippa's "Matrix Calculus" chapter: "http://www.colorado.edu/engineering/cas/courses.d/IFEM.d/IFEM.AppF.d/IFEM.AppF.pdf"}
+          Slides and Notes:
+            - {Matrix Differentiation: "docs/matrix-differentiation.pdf"}
+#          References (Supplemental):
+#            - {The Matrix Cookbook: "refs/matrixCookbook-15Nov2012.pdf"}
+-
+  Title: Week 2
+  Events:
+    2015-02-04:
+      Label: Lecture
+#      Video: "http://techtalks.tv/talks/lecture-44/61399/"
+      Topics:
+        Excess Risk Decomposition (cont.):
+          References (Pre):
+            - "KPM 16.2.1"
+          Slides and Notes:
+            - {Excess Risk Demo: "docs/2a.excess-risk-example.pdf"}
+        L1/L2 regularization:
+          References (Supplemental):
+            - "KPM 13.3, 13.4.1"
+            - "HTF Ch. 3"
+            - {Bottou's SGD Tricks: "refs/bottou-sgd-tricks-2012.pdf"}
+          Slides and Notes:
+            - {L1 and L2 regularization: "docs/2b.L1L2-regularization.pdf"}
+        Optimization methods for Lasso:
+    2015-02-05:
+      Label: Lab
+      Topics:
+        Subgradient descent:
+          References (Supplemental):
+            - {Boyd's subgradient notes: "http://web.stanford.edu/class/ee364b/lectures.html"}
+          Slides and Notes:
+            - {Subgradient Methods: "docs/2.Lab.subgradient-descent.pdf"}
+-
+  Title: Week 3
+  Events:
+    2015-02-11:
+      Label: Lecture
+#      Video: "http://techtalks.tv/talks/lecture-47/61403/"
+      Topics:
+        Loss functions:
+          Slides and Notes:
+             - {Loss functions: "docs/3a.loss-functions.pdf"}
+        Convex Optimization:
+          Slides and Notes:
+            - {Convex optimization: "docs/3b.convex-optimization.pdf"}
+            - {Extreme Abridgement of BV: "docs/convex-optimization.pdf"}
+          References (Supplemental):
+            - BV Ch 1-5
+        SVM:
+          References (Supplemental):
+            - "HTF 12.2.1 - 12.2.2"
+          Slides and Notes:
+            - {SVM (slides): "docs/3c.SVM.pdf"}
+            - {SVM (notes): "docs/svm-notes.pdf"}
+
+    2015-02-12:
+      Label: Lab
+      Video: "http://techtalks.tv/talks/lab-11/61404/"
+      Topics:
+        Projections:
+        SVM (Geometric Motivation):
+          References (Supplemental):
+            - "HTF 3.2.0,4.5"
+            - "HTF pp. 417-419"
+          Slides and Notes:
+            - {Projections and SVM: "docs/projections-svm.pdf"}
+# -
+#   Title: Week 4
+#   Events:
+#     2015-02-18:
+#       Label: Lecture
+#       Video: "http://techtalks.tv/talks/lecture-50/61408/"
+#       Topics:
+#         Features:
+#           Slides and Notes:
+#             - {Features: "docs/4b.features.pdf"}
+#         Kernel Methods:
+#           References (Supplemental):
+#             - "KPM 14.2.1-14.2.6"
+#           Slides and Notes:
+#             - {Kernel Methods (Overview): "docs/4a.kernels-highlevel.pdf"}
+#             - {Kernels: "docs/4c.kernels.pdf"}
+#         Kernelized Ridge Regression:
+#           References (Supplemental):
+#             - "KPM 14.3.1-14.4.3"
+#         Kernelized SVM:
+#           References (Supplemental):
+#             - "HTF 12.3.1"
+#             - "KPM 14.5"
+
+#     2015-02-19:
+#       Label: Lab
+#       Topics:
+#         Kernelizations:
+#           Slides and Notes:
+#             - {Kernelizations: "docs/4.Lab.kernelizations.pdf"}
+
+# - Title: Week 5
+#   Events:
+#     2015-02-25:
+#       Label: Lecture
+#       Video: "http://techtalks.tv/talks/lecture-53/61414/"
+#       Topics:
+#         Trees:
+#           Slides and Notes:
+#             - {Trees: "docs/5a.trees.pdf"}
+#           References (Supplemental):
+#             - "HTF 9.2"
+#             - "KPM 16-16.2.4"
+#         Bias and Variance:
+#           Slides and Notes:
+#             - {Bias and Variance: "docs/5b.bias-variance.pdf"}
+#     2015-02-26:
+#       Label: Lab
+#       Video: "http://techtalks.tv/talks/lab-16/61415/"
+#       Topics:
+#         Homework Review:
+#           Slides and Notes:
+#             - {"SGD, Parameter Tuning, and Directional Derivatives": "docs/5.Lab.misc.pdf"}
+
+# - Title: Week 6
+#   Events:
+#     2015-03-04:
+#       Label: Lecture
+#       Video: "http://techtalks.tv/talks/lecture-55/61417/"
+#       Topics:
+#         Bagging:
+#           Slides and Notes:
+#             - {Bagging and Random Forests: "docs/6a.bagging-random-forests.pdf"}
+#           References (Supplemental):
+#             - "HTF 8.7"
+#         Random Forests:
+#           References (Supplemental):
+#             - "HTF Ch. 15"
+#         Boosting:
+#           References (Supplemental):
+#             - "HTF Ch. 10"
+#             - "KPM Ch. 16.4"
+#           Slides and Notes:
+#             - {Boosting: "docs/6b.boosting.pdf"}
+#     2015-03-05:
+#       Label: Lab
+#       Video: "http://techtalks.tv/talks/lab-18/61420/"
+#       Topics:
+#         Probability Distribution Review (Shanshan Ding):
+#           Slides and Notes:
+#             - {Probability Distributions: "docs/probability-distributions.pdf"}
+
+# - Title: Week 7
+#   Events:
+#     2015-03-11:
+#       Label: Lecture
+#       Video: "http://techtalks.tv/talks/lecture-58/61424/"
+#       Topics:
+#         Gradient Boosting:
+#           References (Supplemental):
+#             - {Friedman's GBM Paper: http://statweb.stanford.edu/~jhf/ftp/trebst.pdf}
+#             - {Ridgeway's GBM Guide: http://www.saedsayad.com/docs/gbm2.pdf}
+#           Slides and Notes:
+#             - {Gradient Boosting: "docs/7a.gradient-boosting.pdf"}
+#         Neural Networks:
+#           Slides and Notes:
+#             - {Neural Networks: "docs/7b.neural-networks.pdf"}
+#           References (Supplemental):
+#             - "HTF Ch 11"
+#             - "KPM 16.5-16.5.5"
+#             - {Bengio's "Practical Recommendations": http://arxiv.org/pdf/1206.5533v2.pdf}
+#     2015-03-12:
+#       Label: Project Adviser Meetings
+#       Topics: []
+
+# - Title: Week 8
+#   Events:
+#     2015-03-25:
+#       Label: Lecture
+#       Video: "http://techtalks.tv/talks/lecture-61/61433/"
+#       Topics:
+#         Probabilistic Modeling:
+#           Slides and Notes:
+#             - {CitySense and CabSense: "docs/8a.citysense.pdf"}
+#         Conditional Probability Models:
+#           Slides and Notes:
+#             - {Conditional Probability Models: "docs/8b.conditional-probability-models.pdf"}
+#     2015-03-26:
+#       Label: Lab
+#       Video: "http://techtalks.tv/talks/lab-22/61435/"
+#       Topics:
+#         Generalized Linear Models:
+#           Slides and Notes:
+#             - {Generalized Linear Models: "docs/8.Lab.glm.pdf"}
+#           References (Supplemental):
+#             - {Part III of Andrew Ng's CS 229 Notes: http://cs229.stanford.edu/notes/cs229-notes1.pdf}
+
+
+# - Title: Week 9
+#   Events:
+#     2015-04-01:
+#       Label: Lecture
+#       Video: "http://techtalks.tv/talks/lecture-64/61438/"
+#       Topics:
+#         Midterm Exam Review:
+#           Slides and Notes:
+#             - {Midterm Review: "docs/9.midterm-review.pdf"}
+#     2015-04-02:
+#       Label: Lab
+#       Video: "http://techtalks.tv/talks/lecture-64/61440/"
+#       Topics:
+#         Midterm Exam Review:
+
+# - Title: Week 10
+#   Events:
+#     2015-04-08:
+#       Label: Midterm Exam
+#       Topics: []
+#     2015-04-09:
+#       Label: Midterm Recap
+#       Topics:
+#         Midterm Recap:
+#           Slides and Notes:
+#             - {Midterm Recap: "docs/10.Lab.MidtermRecap.pdf"}
+
+# - Title: Week 11
+#   Events:
+#     2015-04-15:
+#       Label: Lecture
+#       Video: "http://techtalks.tv/talks/lecture-69/61447/"
+#       Topics:
+#         Bayesian Networks:
+#           Slides and Notes:
+#             - {Bayesian Networks: "docs/11.bayesian-networks.pdf"}
+#           References (Supplemental):
+#             - "KPM Chapter 10"
+
+#     2015-04-16:
+#       Label: Project Adviser Meetings
+#       Topics: []
+
+# - Title: Week 12
+#   Events:
+#     2015-04-22:
+#       Label: Lecture
+#       Video: http://techtalks.tv/talks/lecture-72/61451/
+#       Topics:
+#         Bayesian Methods:
+#           References (Supplemental):
+#             - "KPM Chapter 5"
+#           Slides and Notes:
+#             - {Bayesian Methods: "docs/12.bayesian-methods.pdf"}
+#         Bayesian Regression:
+#           References (Supplemental):
+#             - "KPM 7.6"
+
+#     2015-04-23:
+#       Label: Lab
+#       Video: "http://techtalks.tv/talks/lab-29/61453/"
+#       Topics:
+#         Beta-Binomial Model:
+#         Naive Bayes:
+#         Bag-of-Words (Bernoulli Version):
+#           Slides and Notes:
+#             - {Bayesian Review and Naive Bayes: "docs/12.Lab.bayesian-methods.pdf"}
+
+# - Title: Week 13
+#   Events:
+#     2015-04-29:
+#       Label: Lecture
+#       Video: "http://techtalks.tv/talks/lecture-74/61456/"
+#       Topics:
+#         k-means Clustering:
+#         Gaussian Mixture Models:
+#         EM Algorithm (Introduction):
+#           Slides and Notes:
+#             - {k-means and Mixture Models: "docs/13.mixture-models.pdf"}
+#     2015-04-30:
+#       Label: Lab (Shanshan)
+#       Video: "http://techtalks.tv/talks/lab-31/61457/"
+#       Topics:
+#         SVD, PCA, Linear Discriminant Analysis:
+#           Slides and Notes:
+# #            - {PCA, SVD, and Fisher's LDA: "docs/13.Lab.PCA-SVD-LDA.pdf"}
+#             - {PCA-SVD-LDA: "docs/13.Lab.PCA-SVD-LDA.pdf"}
+
+# - Title: Week 14
+#   Events:
+#     2015-05-06:
+#       Label: Lecture
+#       Video: "http://techtalks.tv/talks/lecture-77/61460/"
+#       Topics:
+#         Information Theory:
+#           Slides and Notes:
+#             - {Information Theory: "docs/14a.information-theory.pdf"}
+#         EM Algorithm (General):
+#           Slides and Notes:
+#             - {EM Algorithm: "docs/14b.EM-algorithm.pdf"}
+
+#     2015-05-07:
+#       Label: Project Adviser Meetings
+#       Topics: []

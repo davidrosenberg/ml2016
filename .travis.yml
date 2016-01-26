@@ -1,0 +1,8 @@
+language: node_js
+node_js:
+- stable
+script: bash ./deploy.sh
+env:
+  global:
+  - GH_REF: github.com/davidrosenberg/dsga1003.git
+  - secure: FzCgD214+KRyxvVTut84DrKQJ36BmZTy0yUNgywFecYEEnfmTl3dHquk2GwvP191mIoBqpCpsZiLMJ9vHSKF47NJkORwwIwesnuBjEiJxzG/uxpyNgt1Dxn4JJFW8ymPjxrI2RlNnVnhGVHyndAFHfHH9FJqGf6AlujGQdf3zMU=
