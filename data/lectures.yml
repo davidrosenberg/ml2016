@@ -2,7 +2,7 @@
 -
   Title: Week 1
   Events:
-    2015-01-28:
+    2016-01-27:
       Label: Lecture
 #      Video: "http://techtalks.tv/talks/lecture-1-9/61396/"
       Topics:
@@ -12,8 +12,6 @@
           Slides and Notes:
             - {Course Logistics: "docs/1a.course-logistics.pdf"}
         Statistical learning theory framework:
-          References (Pre):
-            - Math review notes
           Slides and Notes:
             - {Statistical Learning Theory: "docs/1b.intro-slt-riskdecomp.pdf"}
         Excess risk decomposition:
@@ -23,7 +21,7 @@
             - BV Preface, Ch 1
           Slides and Notes:
             - {Stochastic Gradient Descent: "docs/1c.stoch-grad-descent.pdf"}
-    2015-01-29:
+    2016-01-28:
       Label: Lab
 #      Video: "http://techtalks.tv/talks/lab-1/61397/"
       Topics:
@@ -35,68 +33,68 @@
             - {Matrix Differentiation: "docs/matrix-differentiation.pdf"}
 #          References (Supplemental):
 #            - {The Matrix Cookbook: "refs/matrixCookbook-15Nov2012.pdf"}
--
-  Title: Week 2
-  Events:
-    2015-02-04:
-      Label: Lecture
-#      Video: "http://techtalks.tv/talks/lecture-44/61399/"
-      Topics:
-        Excess Risk Decomposition (cont.):
-          References (Pre):
-            - "KPM 16.2.1"
-          Slides and Notes:
-            - {Excess Risk Demo: "docs/2a.excess-risk-example.pdf"}
-        L1/L2 regularization:
-          References (Supplemental):
-            - "KPM 13.3, 13.4.1"
-            - "HTF Ch. 3"
-            - {Bottou's SGD Tricks: "refs/bottou-sgd-tricks-2012.pdf"}
-          Slides and Notes:
-            - {L1 and L2 regularization: "docs/2b.L1L2-regularization.pdf"}
-        Optimization methods for Lasso:
-    2015-02-05:
-      Label: Lab
-      Topics:
-        Subgradient descent:
-          References (Supplemental):
-            - {Boyd's subgradient notes: "http://web.stanford.edu/class/ee364b/lectures.html"}
-          Slides and Notes:
-            - {Subgradient Methods: "docs/2.Lab.subgradient-descent.pdf"}
--
-  Title: Week 3
-  Events:
-    2015-02-11:
-      Label: Lecture
-#      Video: "http://techtalks.tv/talks/lecture-47/61403/"
-      Topics:
-        Loss functions:
-          Slides and Notes:
-             - {Loss functions: "docs/3a.loss-functions.pdf"}
-        Convex Optimization:
-          Slides and Notes:
-            - {Convex optimization: "docs/3b.convex-optimization.pdf"}
-            - {Extreme Abridgement of BV: "docs/convex-optimization.pdf"}
-          References (Supplemental):
-            - BV Ch 1-5
-        SVM:
-          References (Supplemental):
-            - "HTF 12.2.1 - 12.2.2"
-          Slides and Notes:
-            - {SVM (slides): "docs/3c.SVM.pdf"}
-            - {SVM (notes): "docs/svm-notes.pdf"}
+# -
+#   Title: Week 2
+#   Events:
+#     2015-02-04:
+#       Label: Lecture
+# #      Video: "http://techtalks.tv/talks/lecture-44/61399/"
+#       Topics:
+#         Excess Risk Decomposition (cont.):
+#           References (Pre):
+#             - "KPM 16.2.1"
+#           Slides and Notes:
+#             - {Excess Risk Demo: "docs/2a.excess-risk-example.pdf"}
+#         L1/L2 regularization:
+#           References (Supplemental):
+#             - "KPM 13.3, 13.4.1"
+#             - "HTF Ch. 3"
+#             - {Bottou's SGD Tricks: "refs/bottou-sgd-tricks-2012.pdf"}
+#           Slides and Notes:
+#             - {L1 and L2 regularization: "docs/2b.L1L2-regularization.pdf"}
+#         Optimization methods for Lasso:
+#     2015-02-05:
+#       Label: Lab
+#       Topics:
+#         Subgradient descent:
+#           References (Supplemental):
+#             - {Boyd's subgradient notes: "http://web.stanford.edu/class/ee364b/lectures.html"}
+#           Slides and Notes:
+#             - {Subgradient Methods: "docs/2.Lab.subgradient-descent.pdf"}
+# -
+#   Title: Week 3
+#   Events:
+#     2015-02-11:
+#       Label: Lecture
+# #      Video: "http://techtalks.tv/talks/lecture-47/61403/"
+#       Topics:
+#         Loss functions:
+#           Slides and Notes:
+#              - {Loss functions: "docs/3a.loss-functions.pdf"}
+#         Convex Optimization:
+#           Slides and Notes:
+#             - {Convex optimization: "docs/3b.convex-optimization.pdf"}
+#             - {Extreme Abridgement of BV: "docs/convex-optimization.pdf"}
+#           References (Supplemental):
+#             - BV Ch 1-5
+#         SVM:
+#           References (Supplemental):
+#             - "HTF 12.2.1 - 12.2.2"
+#           Slides and Notes:
+#             - {SVM (slides): "docs/3c.SVM.pdf"}
+#             - {SVM (notes): "docs/svm-notes.pdf"}
 
-    2015-02-12:
-      Label: Lab
-      Video: "http://techtalks.tv/talks/lab-11/61404/"
-      Topics:
-        Projections:
-        SVM (Geometric Motivation):
-          References (Supplemental):
-            - "HTF 3.2.0,4.5"
-            - "HTF pp. 417-419"
-          Slides and Notes:
-            - {Projections and SVM: "docs/projections-svm.pdf"}
+#     2015-02-12:
+#       Label: Lab
+#       Video: "http://techtalks.tv/talks/lab-11/61404/"
+#       Topics:
+#         Projections:
+#         SVM (Geometric Motivation):
+#           References (Supplemental):
+#             - "HTF 3.2.0,4.5"
+#             - "HTF pp. 417-419"
+#           Slides and Notes:
+#             - {Projections and SVM: "docs/projections-svm.pdf"}
 # -
 #   Title: Week 4
 #   Events:

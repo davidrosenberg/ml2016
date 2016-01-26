@@ -1,12 +1,12 @@
-Due time: 4pm
+Due time: 6pm
 Submit link: "https://newclasses.nyu.edu/portal"
 ---
 -
   Label: Homework 1
   Description: Ridge regression and SGD
   Due: 2015-02-06
-  PDF: {hw1.pdf: "http://davidrosenberg.github.io/mlcourse/Lectures/13.mixture-models.pdf"}
-  ZIP: {hw1.zip: "http://davidrosenberg.github.io/mlcourse/Lectures/13.mixture-models.pdf"}
+  PDF: {hw1.pdf: "http://davidrosenberg.github.io/mlcourse/Homework/hw1.pdf"}
+  ZIP: {hw1.zip: "http://davidrosenberg.github.io/mlcourse/Homework/hw1.zip"}
 
 #  Solutions: {hw1_solutions.zip: "homework/hw1-sgd/hw1_solutions.zip"}
 # -
