@@ -10,17 +10,17 @@
           References (Supplemental):
             - {KPM Ch 1: "http://www.cs.ubc.ca/~murphyk/MLbook/pml-intro-22may12.pdf"}
           Slides and Notes:
-            - {Course Logistics: "docs/1a.course-logistics.pdf"}
+            - {Course Logistics: "https://davidrosenberg.github.io/mlcourse/Lectures/1a.course-logistics.pdf"}
         Statistical learning theory framework:
           Slides and Notes:
-            - {Statistical Learning Theory: "docs/1b.intro-slt-riskdecomp.pdf"}
+            - {Statistical Learning Theory: "https://davidrosenberg.github.io/mlcourse/Lectures/1b.intro-slt-riskdecomp.pdf"}
         Excess risk decomposition:
         Gradient and stochastic gradient descent:
           References (Supplemental):
-            - {Bottou's SGD Tricks: "refs/bottou-sgd-tricks-2012.pdf"}
+            - {Bottou's SGD Tricks: "http://leon.bottou.org/papers/bottou-tricks-2012"}
             - BV Preface, Ch 1
           Slides and Notes:
-            - {Stochastic Gradient Descent: "docs/1c.stoch-grad-descent.pdf"}
+            - {Stochastic Gradient Descent: "https://davidrosenberg.github.io/mlcourse/Lectures/1c.stoch-grad-descent.pdf"}
     2016-01-28:
       Label: Lab
 #      Video: "http://techtalks.tv/talks/lab-1/61397/"
@@ -29,8 +29,8 @@
           References (Supplemental):
             - {Barnes's "Matrix Differentiation" notes: "http://www.atmos.washington.edu/~dennis/MatrixCalculus.pdf"}
             - {Felippa's "Matrix Calculus" chapter: "http://www.colorado.edu/engineering/cas/courses.d/IFEM.d/IFEM.AppF.d/IFEM.AppF.pdf"}
-          Slides and Notes:
-            - {Matrix Differentiation: "docs/matrix-differentiation.pdf"}
+#          Slides and Notes:
+#            - {Matrix Differentiation: "docs/matrix-differentiation.pdf"}
 #          References (Supplemental):
 #            - {The Matrix Cookbook: "refs/matrixCookbook-15Nov2012.pdf"}
 # -
@@ -44,14 +44,14 @@
 #           References (Pre):
 #             - "KPM 16.2.1"
 #           Slides and Notes:
-#             - {Excess Risk Demo: "docs/2a.excess-risk-example.pdf"}
+#             - {Excess Risk Demo: "https://davidrosenberg.github.io/mlcourse/Lectures/2a.excess-risk-example.pdf"}
 #         L1/L2 regularization:
 #           References (Supplemental):
 #             - "KPM 13.3, 13.4.1"
 #             - "HTF Ch. 3"
 #             - {Bottou's SGD Tricks: "refs/bottou-sgd-tricks-2012.pdf"}
 #           Slides and Notes:
-#             - {L1 and L2 regularization: "docs/2b.L1L2-regularization.pdf"}
+#             - {L1 and L2 regularization: "https://davidrosenberg.github.io/mlcourse/Lectures/2b.L1L2-regularization.pdf"}
 #         Optimization methods for Lasso:
 #     2015-02-05:
 #       Label: Lab
@@ -60,7 +60,7 @@
 #           References (Supplemental):
 #             - {Boyd's subgradient notes: "http://web.stanford.edu/class/ee364b/lectures.html"}
 #           Slides and Notes:
-#             - {Subgradient Methods: "docs/2.Lab.subgradient-descent.pdf"}
+#             - {Subgradient Methods: "https://davidrosenberg.github.io/mlcourse/Lectures/2.Lab.subgradient-descent.pdf"}
 # -
 #   Title: Week 3
 #   Events:
@@ -70,18 +70,18 @@
 #       Topics:
 #         Loss functions:
 #           Slides and Notes:
-#              - {Loss functions: "docs/3a.loss-functions.pdf"}
+#              - {Loss functions: "https://davidrosenberg.github.io/mlcourse/Lectures/3a.loss-functions.pdf"}
 #         Convex Optimization:
 #           Slides and Notes:
-#             - {Convex optimization: "docs/3b.convex-optimization.pdf"}
-#             - {Extreme Abridgement of BV: "docs/convex-optimization.pdf"}
+#             - {Convex optimization: "https://davidrosenberg.github.io/mlcourse/Lectures/3b.convex-optimization.pdf"}
+#             - {Extreme Abridgement of BV: "https://davidrosenberg.github.io/mlcourse/Lectures/convex-optimization.pdf"}
 #           References (Supplemental):
 #             - BV Ch 1-5
 #         SVM:
 #           References (Supplemental):
 #             - "HTF 12.2.1 - 12.2.2"
 #           Slides and Notes:
-#             - {SVM (slides): "docs/3c.SVM.pdf"}
+#             - {SVM (slides): "https://davidrosenberg.github.io/mlcourse/Lectures/3c.SVM.pdf"}
 #             - {SVM (notes): "docs/svm-notes.pdf"}
 
 #     2015-02-12:

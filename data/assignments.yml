@@ -4,7 +4,7 @@ Submit link: "https://newclasses.nyu.edu/portal"
 -
   Label: Homework 1
   Description: Ridge regression and SGD
-  Due: 2015-02-06
+  Due: 2015-02-05
   PDF: {hw1.pdf: "http://davidrosenberg.github.io/mlcourse/Homework/hw1.pdf"}
   ZIP: {hw1.zip: "http://davidrosenberg.github.io/mlcourse/Homework/hw1.zip"}
 
