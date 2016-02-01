@@ -4,7 +4,7 @@
   Events:
     2016-01-27:
       Label: Lecture
-#      Video: "http://techtalks.tv/talks/lecture-1-9/61396/"
+      Video: "http://techtalks.tv/talks/lecture-jan-27th/62098/"
       Topics:
         Course mechanics:
           References (Supplemental):
@@ -23,14 +23,17 @@
             - {Stochastic Gradient Descent: "https://davidrosenberg.github.io/mlcourse/Lectures/1c.stoch-grad-descent.pdf"}
     2016-01-28:
       Label: Lab
-#      Video: "http://techtalks.tv/talks/lab-1/61397/"
+      Video: "http://techtalks.tv/talks/lecture-jan-28th-2/62100/"
       Topics:
         Matrix differentiation (Levent Sagun):
           References (Supplemental):
             - {Barnes's "Matrix Differentiation" notes: "http://www.atmos.washington.edu/~dennis/MatrixCalculus.pdf"}
             - {Felippa's "Matrix Calculus" chapter: "http://www.colorado.edu/engineering/cas/courses.d/IFEM.d/IFEM.AppF.d/IFEM.AppF.pdf"}
-#          Slides and Notes:
+          Slides and Notes:
 #            - {Matrix Differentiation: "docs/matrix-differentiation.pdf"}
+            - {Matrix Differentiation: "http://davidrosenberg.github.io/ml2015/docs/matrix-differentiation.pdf"}
+            - {Directional Derivatives and Approximation: "https://davidrosenberg.github.io/mlcourse/Notes/directional-derivative.pdf"}
+
 #          References (Supplemental):
 #            - {The Matrix Cookbook: "refs/matrixCookbook-15Nov2012.pdf"}
 # -
@@ -76,6 +79,7 @@
 #             - {Convex optimization: "https://davidrosenberg.github.io/mlcourse/Lectures/3b.convex-optimization.pdf"}
 #             - {Extreme Abridgement of BV: "https://davidrosenberg.github.io/mlcourse/Lectures/convex-optimization.pdf"}
 #           References (Supplemental):
+#             - {Andrew Ng's CS229 SVM Notes: "http://cs229.stanford.edu/notes/cs229-notes3.pdf"}
 #             - BV Ch 1-5
 #         SVM:
 #           References (Supplemental):
