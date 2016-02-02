@@ -20,8 +20,6 @@ Run `npm run build` to do a local build into the `out/` directory. You can then 
 
 [Gulp](http://gulpjs.com/) is used for a build/watch system. This is abstracted behind npm tasks though (`npm run watch`, `npm run build`).
 
-[Traceur](https://github.com/google/traceur-compiler) is used to write ES2015 code instead of boring-old-JavaScript, for the build code at least.
-
 [Travis](https://travis-ci.org/) is used to build and deploy the website to gh-pages on each push, per [this guide](https://gist.github.com/domenic/ec8b0fc8ab45f39403dd).
 
 The site is intended to be responsive, which we accomplish with per-device stylesheets and media queries in the HTML.
@@ -30,4 +28,4 @@ The site is intended to be responsive, which we accomplish with per-device style
 
 While editing you should be using an [EditorConfig](http://editorconfig.org/) plugin for your text editor to enforce a few basic stylistic things.
 
-We are trying to maintain a reasonable HTML document outline (so, don't use `<section>` as if it were `<div>`). To preview the document outline, use the [HTML 5 Outliner tool](https://gsnedders.html5.org/outliner/); here's [a direct link to the outline for the current version](https://gsnedders.html5.org/outliner/process.py?url=https%3A%2F%2Fdavidrosenberg.github.io%2Fml2015%2F%23home).
+We are trying to maintain a reasonable HTML document outline (so, don't use `<section>` as if it were `<div>`). To preview the document outline, use the [HTML 5 Outliner tool](https://gsnedders.html5.org/outliner/); here's [a direct link to the outline for the current version](https://gsnedders.html5.org/outliner/process.py?url=https%3A%2F%2Fdavidrosenberg.github.io%2Fml2016%2F%23home).
