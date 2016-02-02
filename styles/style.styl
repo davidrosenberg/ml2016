@@ -3,6 +3,7 @@
 nav-width = 60px
 body-padding = 40px
 body-left = nav-width + body-padding
+module-padding = 20px
 
 font-largest =
   font-size: 46px
@@ -104,7 +105,7 @@ p
 .module
   background: white
   border-radius: 8px
-  padding: 20px
+  padding: module-padding
   box-shadow: 0 0 5px rgba(0,0,0,0.12)
 
 .icon
@@ -508,22 +509,11 @@ body > section
 
   > section.multiple-people
     margin-bottom: 30px
-
-    ul
-      display: flex
-
-      flex-flow: row nowrap
-
-      @media screen and (max-width: 1250px)
-        flex-wrap: wrap
-
-      @media screen and (max-width: 900px)
-        display: block
-
-        .person
-          margin-right: 0
+    max-width: 1300px
 
   ul
+    display: flex
+    flex-flow: row wrap
     list-style-type: none
 
   .person
@@ -532,26 +522,25 @@ body > section
     margin-right: 20px
     margin-bottom: 20px
 
-    flex: 0 1 33%
+    flex-grow: 0
+    flex-shrink: 0
+    flex-basis: 600px
+    width: 600px
 
-    @media screen and (max-width: 1250px)
-      flex-basis: 45%
+    img-size = 150px
 
-    &:last-child
-      margin-right: 0
-
-    &.instructor
-      width: 560px
+    min-height: img-size + 2 * module-padding
 
     > img
-      width: 150px
-      height: 150px
+      width: img-size
+      height: img-size
       margin-right: 20px
       border-radius: 8px
 
       flex: 0 0 auto
 
     > .info
+      min-width: 0 // bizarre flexbox behavior; https://bugs.webkit.org/show_bug.cgi?id=94584#c2
       > p
         margin: 0 5px
 
