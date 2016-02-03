@@ -14,7 +14,6 @@
         Statistical learning theory framework:
           Slides and Notes:
             - {Statistical Learning Theory: "https://davidrosenberg.github.io/mlcourse/Lectures/1b.intro-slt-riskdecomp.pdf"}
-        Excess risk decomposition:
         Gradient and stochastic gradient descent:
           References (Supplemental):
             - {Bottou's SGD Tricks: "http://leon.bottou.org/papers/bottou-tricks-2012"}
@@ -30,41 +29,39 @@
             - {Barnes's "Matrix Differentiation" notes: "http://www.atmos.washington.edu/~dennis/MatrixCalculus.pdf"}
             - {Felippa's "Matrix Calculus" chapter: "http://www.colorado.edu/engineering/cas/courses.d/IFEM.d/IFEM.AppF.d/IFEM.AppF.pdf"}
           Slides and Notes:
-#            - {Matrix Differentiation: "docs/matrix-differentiation.pdf"}
             - {Levent's Differentiation Slides: "http://davidrosenberg.github.io/mlcourse/Labs/1differentiation.pdf"}
             - {Matrix Differentiation: "http://davidrosenberg.github.io/ml2015/docs/matrix-differentiation.pdf"}
             - {Directional Derivatives and Approximation: "https://davidrosenberg.github.io/mlcourse/Notes/directional-derivative.pdf"}
-
 #          References (Supplemental):
 #            - {The Matrix Cookbook: "refs/matrixCookbook-15Nov2012.pdf"}
-# -
-#   Title: Week 2
-#   Events:
-#     2015-02-04:
-#       Label: Lecture
-# #      Video: "http://techtalks.tv/talks/lecture-44/61399/"
-#       Topics:
-#         Excess Risk Decomposition (cont.):
-#           References (Pre):
-#             - "KPM 16.2.1"
-#           Slides and Notes:
-#             - {Excess Risk Demo: "https://davidrosenberg.github.io/mlcourse/Lectures/2a.excess-risk-example.pdf"}
-#         L1/L2 regularization:
-#           References (Supplemental):
-#             - "KPM 13.3, 13.4.1"
-#             - "HTF Ch. 3"
-#             - {Bottou's SGD Tricks: "refs/bottou-sgd-tricks-2012.pdf"}
-#           Slides and Notes:
-#             - {L1 and L2 regularization: "https://davidrosenberg.github.io/mlcourse/Lectures/2b.L1L2-regularization.pdf"}
-#         Optimization methods for Lasso:
-#     2015-02-05:
-#       Label: Lab
-#       Topics:
-#         Subgradient descent:
-#           References (Supplemental):
-#             - {Boyd's subgradient notes: "http://web.stanford.edu/class/ee364b/lectures.html"}
-#           Slides and Notes:
-#             - {Subgradient Methods: "https://davidrosenberg.github.io/mlcourse/Lectures/2.Lab.subgradient-descent.pdf"}
+-
+  Title: Week 2
+  Events:
+    2015-02-03:
+      Label: Lecture
+#      Video: "http://techtalks.tv/talks/lecture-44/61399/"
+      Topics:
+        Excess Risk Decomposition:
+#          References (Pre):
+#            - "KPM 16.2.1"
+          Slides and Notes:
+            - {Excess Risk Decomposition: "http://davidrosenberg.github.io/mlcourse/Lectures/2a.excess-risk-decomposition.pdf"}
+        L1/L2 regularization:
+          References (Supplemental):
+            - "HTF Ch. 3"
+            - {Bottou's SGD Tricks: "refs/bottou-sgd-tricks-2012.pdf"}
+          Slides and Notes:
+            - {L1 and L2 regularization: "https://davidrosenberg.github.io/mlcourse/Lectures/2b.L1L2-regularization.pdf"}
+            - {Completing the Square: "http://davidrosenberg.github.io/mlcourse/Notes/completing-the-square.pdf"}
+        Optimization methods for Lasso:
+    # 2015-02-04:
+    #   Label: Lab
+    #   Topics:
+    #     Subgradient descent:
+    #       References (Supplemental):
+    #         - {Boyd's subgradient notes: "http://web.stanford.edu/class/ee364b/lectures.html"}
+    #       Slides and Notes:
+    #         - {Subgradient Methods: "https://davidrosenberg.github.io/mlcourse/Lectures/2.Lab.subgradient-descent.pdf"}
 # -
 #   Title: Week 3
 #   Events:
