@@ -54,49 +54,51 @@
             - {L1 and L2 regularization: "https://davidrosenberg.github.io/mlcourse/Lectures/2b.L1L2-regularization.pdf"}
             - {Completing the Square: "http://davidrosenberg.github.io/mlcourse/Notes/completing-the-square.pdf"}
         Optimization methods for Lasso:
-    # 2015-02-04:
-    #   Label: Lab
-    #   Topics:
-    #     Subgradient descent:
-    #       References (Supplemental):
-    #         - {Boyd's subgradient notes: "http://web.stanford.edu/class/ee364b/lectures.html"}
-    #       Slides and Notes:
-    #         - {Subgradient Methods: "https://davidrosenberg.github.io/mlcourse/Lectures/2.Lab.subgradient-descent.pdf"}
-# -
-#   Title: Week 3
-#   Events:
-#     2015-02-11:
-#       Label: Lecture
-# #      Video: "http://techtalks.tv/talks/lecture-47/61403/"
-#       Topics:
-#         Loss functions:
-#           Slides and Notes:
-#              - {Loss functions: "https://davidrosenberg.github.io/mlcourse/Lectures/3a.loss-functions.pdf"}
-#         Convex Optimization:
-#           Slides and Notes:
-#             - {Convex optimization: "https://davidrosenberg.github.io/mlcourse/Lectures/3b.convex-optimization.pdf"}
-#             - {Extreme Abridgement of BV: "https://davidrosenberg.github.io/mlcourse/Lectures/convex-optimization.pdf"}
-#           References (Supplemental):
-#             - {Andrew Ng's CS229 SVM Notes: "http://cs229.stanford.edu/notes/cs229-notes3.pdf"}
-#             - BV Ch 1-5
-#         SVM:
-#           References (Supplemental):
-#             - "HTF 12.2.1 - 12.2.2"
-#           Slides and Notes:
-#             - {SVM (slides): "https://davidrosenberg.github.io/mlcourse/Lectures/3c.SVM.pdf"}
-#             - {SVM (notes): "docs/svm-notes.pdf"}
+    2015-02-04:
+      Label: Lab
+      Topics:
+        Elastic Net:
+        Loss functions:
+          Slides and Notes:
+             - {Loss functions: "https://davidrosenberg.github.io/mlcourse/Lectures/3a.loss-functions.pdf"}
 
-#     2015-02-12:
-#       Label: Lab
-#       Video: "http://techtalks.tv/talks/lab-11/61404/"
-#       Topics:
-#         Projections:
-#         SVM (Geometric Motivation):
-#           References (Supplemental):
-#             - "HTF 3.2.0,4.5"
-#             - "HTF pp. 417-419"
-#           Slides and Notes:
-#             - {Projections and SVM: "docs/projections-svm.pdf"}
+#        Subgradient descent:
+#          References (Supplemental):
+#            - {Boyd's subgradient notes: "http://web.stanford.edu/class/ee364b/lectures.html"}
+#          Slides and Notes:
+#            - {Subgradient Methods: "https://davidrosenberg.github.io/mlcourse/Lectures/2.Lab.subgradient-descent.pdf"}
+-
+  Title: Week 3
+  Events:
+    2015-02-10:
+      Label: Lecture
+#      Video: "http://techtalks.tv/talks/lecture-47/61403/"
+      Topics:
+        Convex Optimization:
+          Slides and Notes:
+            - {Convex optimization: "https://davidrosenberg.github.io/mlcourse/Lectures/3b.convex-optimization.pdf"}
+            - {Extreme Abridgement of BV: "https://davidrosenberg.github.io/mlcourse/Lectures/convex-optimization.pdf"}
+          References (Supplemental):
+            - {Andrew Ng's CS229 SVM Notes: "http://cs229.stanford.edu/notes/cs229-notes3.pdf"}
+            - BV Ch 1-5
+        SVM:
+          References (Supplemental):
+            - "HTF 12.2.1 - 12.2.2"
+          Slides and Notes:
+            - {SVM (slides): "https://davidrosenberg.github.io/mlcourse/Lectures/3c.SVM.pdf"}
+            - {SVM (notes): "docs/svm-notes.pdf"}
+
+    2015-02-11:
+      Label: Lab
+#      Video: "http://techtalks.tv/talks/lab-11/61404/"
+      Topics:
+        Projections:
+        SVM (Geometric Motivation):
+          References (Supplemental):
+            - "HTF 3.2.0,4.5"
+            - "HTF pp. 417-419"
+          Slides and Notes:
+            - {Projections and SVM: "docs/projections-svm.pdf"}
 # -
 #   Title: Week 4
 #   Events:
