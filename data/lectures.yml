@@ -81,6 +81,8 @@
           Slides and Notes:
             - {Loss functions: "https://davidrosenberg.github.io/mlcourse/Lectures/3a.loss-functions.pdf"}
         Convex Optimization:
+          References (Pre):
+            - {Warmup Exercises: "https://davidrosenberg.github.io/mlcourse/Notes/svm-lecture-prep.pdf"}
           Slides and Notes:
             - {Convex optimization: "https://davidrosenberg.github.io/mlcourse/Lectures/3b.convex-optimization.pdf"}
             - {Extreme Abridgement of BV: "https://davidrosenberg.github.io/mlcourse/Notes/convex-optimization.pdf"}
