@@ -56,6 +56,7 @@
         Optimization methods for Lasso:
     2015-02-04:
       Label: Lab
+      Video: "http://techtalks.tv/talks/lab-feb-4th-2/62108/"
       Topics:
         Elastic Net:
           Slides and Notes:
@@ -96,17 +97,17 @@
             - {SVM (slides): "https://davidrosenberg.github.io/mlcourse/Lectures/3c.SVM.pdf"}
             - {SVM (notes): "https://davidrosenberg.github.io/mlcourse/Notes/svm-notes.pdf"}
 
-#     2015-02-11:
-#       Label: Lab
-# #      Video: "http://techtalks.tv/talks/lab-11/61404/"
-#       Topics:
-#         Projections:
-#         SVM (Geometric Motivation):
-#           References (Supplemental):
-#             - "HTF 3.2.0,4.5"
-#             - "HTF pp. 417-419"
-#           Slides and Notes:
-#             - {Projections and SVM: "docs/projections-svm.pdf"}
+    2015-02-11:
+      Label: Lab
+#      Video: "http://techtalks.tv/talks/lab-11/61404/"
+      Topics:
+        Projections:
+        SVM (Geometric Motivation):
+          References (Supplemental):
+            - "HTF 3.2.0,4.5"
+            - "HTF pp. 417-419"
+          Slides and Notes:
+            - {Projections and SVM: "http://davidrosenberg.github.io/mlcourse/Labs/3hardSVM.pdf"}
 # -
 #   Title: Week 4
 #   Events:
