@@ -14,7 +14,7 @@
     <a href="#resources">Resources</a>
     <a href="#lectures">Lectures</a>
     <a href="#assignments">Assignments</a>
-    <!--<a href="#project">Project</a>-->
+    <a href="#project">Project</a>
     <a href="#people">People</a>
 </nav>
 
@@ -100,12 +100,10 @@
     <section>
         <h1>Important Dates</h1>
         <ul>
-            <li><strong>First test</strong> (50 min) Thursday, March 3rd, 7:10-8pm.
-            <li><strong>Second test</strong> (110 min) Wednesday, April 13th, 7:10-9pm
-            <li>Project Adviser Meeting 1 (TBD)
-            <li>Project Adviser Meeting 2 (TBD)
-            <li>Project Adviser Meeting 3 (Tentatively Thurs, May 5th)
-            <li>Project Poster Session (TBD, week of May 9th)
+            <li><strong>First test</strong> (50 min) Thursday, March 3rd, 7:10-8pm.</li>
+            <li><strong>Second test</strong> (110 min) Wednesday, April 13th, 7:10-9pm.</li>
+            <li>See <a href="#assignments">Assignments</a> section for homework-related deadlines.</li>
+            <li>See <a href="#project">Project</a> section for project-related deadlines.</li>
         </ul>
     </section>
 
@@ -207,12 +205,68 @@
     {{> assignments assignments }}
 </section>
 
-<!--
 <section id="project">
     <h1>Project</h1>
-</section>
--->
+    <section>
+    <h1> Overview</h1>
+    <p>The project is your opportunity for in-depth engagement with a data science problem. In job interviews, it's often your course projects that you end up discussing, so it has some importance even beyond this class. That said, it's better to pick a project that you will be able to go deep with (in terms of trying different methods, feature engineering, error analysis, etc.), than choosing a very ambitious project that requires so much setup that you will only have time to try one or two approaches.</p>
+    </section>
+    <section>
+        <h1>Key Dates</h1>
+        <ul>
+            <li><strong>Feb 29 (Mon 6pm)</strong>: Deadline for choosing project groups</li>
+            <li><strong>March 10 (Thur 7-9pm)</strong>: First meeting with advisers. Each group will give a 5-minute "pitch" of their project idea to their assigned project adviser. The adviser may give immediate feedback or ask follow-up questions.</li>
+            <li><strong>March 24 (Thurs 6pm)</strong>: Project Proposals Due</li>
+            <li><strong>Apr 14th or Apr 21st, TBD (Thurs 7-9pm)</strong>: Second meeting with advisers</li>
+            <li><strong>May 5th (Thurs 7-9pm)</strong>: Third meeting with advisers</li>
+            <li><strong>May 11th? (TBD)</strong>:  Project Poster Session</li>
+            <li><strong>May 13th, 6pm</strong>: Final Project Reports Due </li>
+        </ul>
+    </section>
+    <section>
+        <h1>Guidelines for Project Topics</h1>
+        <p>A good project for this class is one that's a real "problem", in the sense that you have something you want to accomplish, and it's not necessarily clear from the beginning the best approach. The techiques used should be relevant to our class, so most likely you will be building a prediction system. A probabilistic model would also be acceptable, though we will not be covering these topics until later in the semester.</p>
 
+        <p>To be clear, the following approaches would be less than ideal:
+            <ol>
+                <li>Finding an interesting ML algorithm, implementing it, and seeing how it works on some data. This is not appropriate because I want your choice of methods to be driven by the problem you are trying to solve, and not the other way around.</li>
+                <li>Choosing a well-known problem (e.g. MNIST digit classification or the Netflix problem) and trying out some of our ML methods on it. This is better than the previous example, but with a very well-established dataset, a lot of the most important and challenging parts of real-world data science are left out, including defining the problem, defining the success metric, and finding the right way to encode the data.</li>
+                <li>Choosing a problem related to predicting stock prices.  Historically, these projects are the most troubled.  Interestingly, our project advisers who have worked at hedge funds are the ones who advise against this most strongly.</li>
+            </ol>
+        </p>
+    </section>
+    <section>
+        <h1>Project proposal guidelines</h1>
+        <p>The project proposal should be roughly 2 pages, though it can be longer if you want to include figures or sample data that will be helpful to your presentation. Your proposal should do the following:</p>
+        <ol>
+            <li>Clearly explain the high-level problem you are trying to solve. (e.g. Predict movie ratings, predict the outcome of a court case, find a low-dimensional characterization of input examples.)</li>
+            <li>Identify the data set or data sets that you will be using. You should give a clear description of the characteristics of the data (how many examples, what kinds of features do we have for each example, are there issues with missing data or bad data, etc.).</li>
+            <li>How will you evaluate performance? In certain settings, you may want to try a few different performance measures.</li>
+            <li>Identify a few "baseline algorithms". These are simple algorithms for solving the problem, such as always predicting the majority class for a classification problem, using a small set of decision rules designed by hand, or using a ridge regression model on a basic feature set. Ideally, you will be able to report the performance of a couple baseline algorithms in your proposal, though this is not necessary. The goal will be to beat the baseline, so if the baseline is already quite high, you will have a challenge.</li>
+            <li>What methods do you plan to try to solve your problem, along with a rough timeline. Methods include data preprocessing, feature generation, and the ML models you'll be trying. Once you start your investigation, it's best to use an iterative approach, where the method you choose next is based on an understanding of the results of the previous step.</li>
+        </ol>
+    </section>
+    <section>
+        <h1>Some Public Data Sets (just to get you thinking) </h1>
+        <ul>
+            <li><a href="http://aws.amazon.com/datasets">Datasets on Amazon's AWS cloud</a></li>
+            <li><a href="http://www.yelp.com/dataset_challenge">Yelp Dataset Challenge</a></li>
+            <li><a href="https://data.cityofnewyork.us/data">NYC Open Data</a></li>
+            <li><a href="http://catalog.data.gov/dataset">Data.gov</a></li>
+            <li><a href="http://data.un.org/">UN Data</a></li>
+            <li><a href="https://www.kaggle.com/">Kaggle</a></li
+            <li><a href="http://www.quandl.com/">Quandl financial, economic, social datasets</a></li>
+            <li><a href="http://sli.ics.uci.edu/Classes/2012W-178">Face recognition, collaborative filtering, web ranking (see bottom, under "Projects")</a></li>
+            <li><a href="http://www.grouplens.org/node/12">More collaborative filtering data</a></li>
+            <li><a href="http://qwone.com/%7Ejason/20Newsgroups/">20 Newsgroups</a></li>
+            <li><a href="http://ebiquity.umbc.edu/resource/html/id/212/Splog-Blog-Dataset">Blogs (with spam labels)</a></li>
+            <li><a href="http://www.cs.cmu.edu/%7Eenron/">Enron e-mail data set</a></li>
+            <li><a href="http://www.cs.cmu.edu/%7Eeinat/datasets.html">More Enron resources</a></li>
+            <li><a href="http://www.govtrack.us/developers/data">Congress voting records</a></li>
+            <li><a href="http://www.quora.com/Data/Where-can-I-find-large-datasets-open-to-the-public">Quota's meta list of datasets</a></li>
+        </ul>
+    </section>
+</section>
 <section id="people">
     <h1>People</h1>
 
