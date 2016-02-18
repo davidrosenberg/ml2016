@@ -66,11 +66,6 @@
             - {Boyd's subgradient notes: "http://web.stanford.edu/class/ee364b/lectures.html"}
           Slides and Notes:
             - {Directional Derivatives and Optima: "http://davidrosenberg.github.io/mlcourse/Lectures/2.Lab.directional-derivatives.pdf"}
-#        Subgradient descent:
-#          References (Supplemental):
-#            - {Boyd's subgradient notes: "http://web.stanford.edu/class/ee364b/lectures.html"}
-#          Slides and Notes:
-#            - {Subgradient Methods: "https://davidrosenberg.github.io/mlcourse/Lectures/2.Lab.subgradient-descent.pdf"}
 -
   Title: Week 3
   Events:
@@ -108,29 +103,30 @@
             - "HTF pp. 417-419"
           Slides and Notes:
             - {Projections and SVM: "http://davidrosenberg.github.io/mlcourse/Labs/3hardSVM.pdf"}
-# -
-#   Title: Week 4
-#   Events:
-#     2015-02-18:
-#       Label: Lecture
-#       Video: "http://techtalks.tv/talks/lecture-50/61408/"
-#       Topics:
-#         Features:
-#           Slides and Notes:
-#             - {Features: "docs/4b.features.pdf"}
-#         Kernel Methods:
-#           References (Supplemental):
-#             - "KPM 14.2.1-14.2.6"
-#           Slides and Notes:
-#             - {Kernel Methods (Overview): "docs/4a.kernels-highlevel.pdf"}
-#             - {Kernels: "docs/4c.kernels.pdf"}
-#         Kernelized Ridge Regression:
-#           References (Supplemental):
-#             - "KPM 14.3.1-14.4.3"
-#         Kernelized SVM:
-#           References (Supplemental):
-#             - "HTF 12.3.1"
-#             - "KPM 14.5"
+-
+  Title: Week 4
+  Events:
+    2015-02-18:
+      Label: Lecture
+#      Video: "http://techtalks.tv/talks/lecture-50/61408/"
+      Topics:
+        SGD and GD Revisited:
+          Slides and Notes:
+            - {SGD and GD Revisited: "https://davidrosenberg.github.io/mlcourse/Lectures/4a.sgd-gd-revisited.pdf"}
+        Subgradient descent:
+          References (Supplemental):
+            - {Boyd's subgradient notes: "http://web.stanford.edu/class/ee364b/lectures.html"}
+          Slides and Notes:
+            - {Subgradient Methods: "https://davidrosenberg.github.io/mlcourse/Lectures/4b.subgradient-descent.pdf"}
+        Features:
+          Slides and Notes:
+            - {Features: "https://davidrosenberg.github.io/mlcourse/Lectures/4c.features.pdf"}
+        Kernel Methods:
+          Slides and Notes:
+            - {Kernels: "https://davidrosenberg.github.io/mlcourse/Lectures/4d.kernels.pdf"}
+          References (Supplemental):
+             - "HTF 12.3.1"
+#            - "KPM 14.2.1-14.2.6"
 
 #     2015-02-19:
 #       Label: Lab
