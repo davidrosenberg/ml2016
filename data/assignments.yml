@@ -7,20 +7,18 @@ Submit link: "https://newclasses.nyu.edu/portal"
   Due: 2015-02-05
   PDF: {hw1.pdf: "http://davidrosenberg.github.io/mlcourse/Homework/hw1-sgd/hw1.pdf"}
   ZIP: {hw1.zip: "http://davidrosenberg.github.io/mlcourse/Homework/hw1.zip"}
-
-#  Solutions: {hw1_solutions.zip: "homework/hw1-sgd/hw1_solutions.zip"}
 -
   Label: Homework 2
   Description: Lasso regression
   Due: 2015-02-16
   PDF: {hw2.pdf: "http://davidrosenberg.github.io/mlcourse/Homework/hw2-lasso/hw2.pdf"}
   ZIP: {hw2.zip: "http://davidrosenberg.github.io/mlcourse/Homework/hw2.zip"}
-# -
-#   Label: Homework 3
-#   Description: SVM and Sentiment Analysis
-#   Due: 2015-02-23
-#   PDF: {hw3.pdf: "homework/hw3.pdf"}
-#   ZIP: {hw3.zip: "homework/hw3.zip"}
+-
+  Label: Homework 3
+  Description: SVM and Sentiment Analysis
+  Due: 2016-02-29
+  PDF: {hw3.pdf: "http://davidrosenberg.github.io/mlcourse/Homework/hw3-sentiment/hw3.pdf"}
+  ZIP: {hw3.zip: "http://davidrosenberg.github.io/mlcourse/Homework/hw3.zip"}
 # -
 #   Label: Homework 4
 #   Description: Kernel Methods and Lagrangian Duality
