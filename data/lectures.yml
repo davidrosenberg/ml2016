@@ -1,4 +1,4 @@
-#http://techtalks.tv/machine-learning-nyu-spring-2015/
+#http://techtalks.tv/machine_learning_spring_2016/
 -
   Title: Week 1
   Events:
@@ -71,7 +71,7 @@
   Events:
     2015-02-10:
       Label: Lecture
-#      Video: "http://techtalks.tv/talks/lecture-47/61403/"
+      Video: "http://techtalks.tv/talks/lecture-feb-10th/62113/"
       Topics:
         Loss Functions:
           Slides and Notes:
@@ -94,7 +94,7 @@
 
     2015-02-11:
       Label: Lab
-#      Video: "http://techtalks.tv/talks/lab-11/61404/"
+      Video: "http://techtalks.tv/talks/lab-feb-11th-2/62115/"
       Topics:
         Projections:
         SVM (Geometric Motivation):
@@ -106,9 +106,9 @@
 -
   Title: Week 4
   Events:
-    2015-02-18:
+    2015-02-17:
       Label: Lecture
-#      Video: "http://techtalks.tv/talks/lecture-50/61408/"
+      Video: "http://techtalks.tv/talks/lecture-feb-17th/62120/"
       Topics:
         SGD and GD Revisited:
           Slides and Notes:
@@ -121,19 +121,17 @@
         Features:
           Slides and Notes:
             - {Features: "https://davidrosenberg.github.io/mlcourse/Lectures/4c.features.pdf"}
+
+    2015-02-18:
+      Label: Lab
+      Video: "http://techtalks.tv/talks/lab-feb-18th-2/62122/"
+      Topics:
         Kernel Methods:
           Slides and Notes:
             - {Kernels: "https://davidrosenberg.github.io/mlcourse/Lectures/4d.kernels.pdf"}
           References (Supplemental):
              - "HTF 12.3.1"
 #            - "KPM 14.2.1-14.2.6"
-
-#     2015-02-19:
-#       Label: Lab
-#       Topics:
-#         Kernelizations:
-#           Slides and Notes:
-#             - {Kernelizations: "docs/4.Lab.kernelizations.pdf"}
 
 # - Title: Week 5
 #   Events:
