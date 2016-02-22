@@ -133,21 +133,27 @@
              - "HTF 12.3.1"
 #            - "KPM 14.2.1-14.2.6"
 
-# - Title: Week 5
-#   Events:
-#     2015-02-25:
-#       Label: Lecture
-#       Video: "http://techtalks.tv/talks/lecture-53/61414/"
-#       Topics:
-#         Trees:
-#           Slides and Notes:
-#             - {Trees: "docs/5a.trees.pdf"}
-#           References (Supplemental):
-#             - "HTF 9.2"
-#             - "KPM 16-16.2.4"
-#         Bias and Variance:
-#           Slides and Notes:
-#             - {Bias and Variance: "docs/5b.bias-variance.pdf"}
+- Title: Week 5
+  Events:
+    2015-02-25:
+      Label: Lecture
+#      Video: "http://techtalks.tv/talks/lecture-53/61414/"
+      Topics:
+        Kernel Methods:
+          Slides and Notes:
+            - {Kernels: "https://davidrosenberg.github.io/mlcourse/Lectures/4d.kernels.pdf"}
+          References (Supplemental):
+             - "HTF 12.3.1"
+#            - "KPM 14.2.1-14.2.6"
+        Trees:
+          Slides and Notes:
+            - {Trees: "https://davidrosenberg.github.io/mlcourse/Lectures/5b.trees.pdf"}
+          References (Supplemental):
+            - "HTF 9.2"
+#            - "KPM 16-16.2.4"
+#        Bias and Variance:
+#          Slides and Notes:
+#            - {Bias and Variance: "docs/5b.bias-variance.pdf"}
 #     2015-02-26:
 #       Label: Lab
 #       Video: "http://techtalks.tv/talks/lab-16/61415/"
