@@ -139,12 +139,18 @@
       Label: Lecture
 #      Video: "http://techtalks.tv/talks/lecture-53/61414/"
       Topics:
+        Hilbert Spaces and Projections:
+          Slides and Notes:
+            - {Hilbert Spaces and Projections: "https://davidrosenberg.github.io/mlcourse/Lectures/5a.hilbert-space.pdf"}
+          References (Supplemental):
+            - "HTF 9.2"
         Kernel Methods:
           Slides and Notes:
-            - {Kernels: "https://davidrosenberg.github.io/mlcourse/Lectures/4d.kernels.pdf"}
+            - {Kernels: "https://davidrosenberg.github.io/mlcourse/Lectures/5b.kernel-methods.pdf"}
           References (Supplemental):
-             - "HTF 12.3.1"
-#            - "KPM 14.2.1-14.2.6"
+            - {Shalev-Shwartz and Ben-David's Book (Ch 16): "http://www.cs.huji.ac.il/~shais/UnderstandingMachineLearning/copy.html"}
+            - "HTF 12.3.1"
+#           - "KPM 14.2.1-14.2.6"
         Trees:
           Slides and Notes:
             - {Trees: "https://davidrosenberg.github.io/mlcourse/Lectures/5b.trees.pdf"}
