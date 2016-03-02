@@ -168,26 +168,17 @@
 #           Slides and Notes:
 #             - {"SGD, Parameter Tuning, and Directional Derivatives": "docs/5.Lab.misc.pdf"}
 
-# - Title: Week 6
-#   Events:
-#     2015-03-04:
-#       Label: Lecture
-#       Video: "http://techtalks.tv/talks/lecture-55/61417/"
-#       Topics:
-#         Bagging:
-#           Slides and Notes:
-#             - {Bagging and Random Forests: "docs/6a.bagging-random-forests.pdf"}
-#           References (Supplemental):
-#             - "HTF 8.7"
-#         Random Forests:
-#           References (Supplemental):
-#             - "HTF Ch. 15"
-#         Boosting:
-#           References (Supplemental):
-#             - "HTF Ch. 10"
-#             - "KPM Ch. 16.4"
-#           Slides and Notes:
-#             - {Boosting: "docs/6b.boosting.pdf"}
+- Title: Week 6
+  Events:
+    2015-03-02:
+      Label: Lecture
+#      Video: "http://techtalks.tv/talks/lecture-55/61417/"
+      Topics:
+        Trees:
+          Slides and Notes:
+            - {Trees: "https://davidrosenberg.github.io/mlcourse/Lectures/6a.classification-trees.pdf"}
+          References (Supplemental):
+            - "HTF 9.2"
 #     2015-03-05:
 #       Label: Lab
 #       Video: "http://techtalks.tv/talks/lab-18/61420/"
