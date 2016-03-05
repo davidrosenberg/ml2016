@@ -37,7 +37,7 @@
 -
   Title: Week 2
   Events:
-    2015-02-03:
+    2016-02-03:
       Label: Lecture
       Video: "http://techtalks.tv/talks/lecture-feb-3rd/62106/"
       Topics:
@@ -54,7 +54,7 @@
             - {L1 and L2 regularization: "https://davidrosenberg.github.io/mlcourse/Lectures/2b.L1L2-regularization.pdf"}
             - {Completing the Square: "http://davidrosenberg.github.io/mlcourse/Notes/completing-the-square.pdf"}
         Optimization methods for Lasso:
-    2015-02-04:
+    2016-02-04:
       Label: Lab
       Video: "http://techtalks.tv/talks/lab-feb-4th-2/62108/"
       Topics:
@@ -69,7 +69,7 @@
 -
   Title: Week 3
   Events:
-    2015-02-10:
+    2016-02-10:
       Label: Lecture
       Video: "http://techtalks.tv/talks/lecture-feb-10th/62113/"
       Topics:
@@ -92,7 +92,7 @@
             - {SVM (slides): "https://davidrosenberg.github.io/mlcourse/Lectures/3c.SVM.pdf"}
             - {SVM (notes): "https://davidrosenberg.github.io/mlcourse/Notes/svm-notes.pdf"}
 
-    2015-02-11:
+    2016-02-11:
       Label: Lab
       Video: "http://techtalks.tv/talks/lab-feb-11th-2/62115/"
       Topics:
@@ -106,7 +106,7 @@
 -
   Title: Week 4
   Events:
-    2015-02-17:
+    2016-02-17:
       Label: Lecture
       Video: "http://techtalks.tv/talks/lecture-feb-17th/62120/"
       Topics:
@@ -122,7 +122,7 @@
           Slides and Notes:
             - {Features: "https://davidrosenberg.github.io/mlcourse/Lectures/4c.features.pdf"}
 
-    2015-02-18:
+    2016-02-18:
       Label: Lab
       Video: "http://techtalks.tv/talks/lab-feb-18th-2/62122/"
       Topics:
@@ -135,9 +135,9 @@
 
 - Title: Week 5
   Events:
-    2015-02-25:
+    2016-02-24:
       Label: Lecture
-#      Video: "http://techtalks.tv/talks/lecture-53/61414/"
+      Video: "http://techtalks.tv/talks/lecture-feb-24th/62132/"
       Topics:
         Hilbert Spaces and Projections:
           Slides and Notes:
@@ -151,48 +151,56 @@
             - {Shalev-Shwartz and Ben-David's Book (Ch 16): "http://www.cs.huji.ac.il/~shais/UnderstandingMachineLearning/copy.html"}
             - "HTF 12.3.1"
 #           - "KPM 14.2.1-14.2.6"
-        Trees:
+#            - "KPM 16-16.2.4"
+    2016-02-25:
+      Label: Lab
+      Video: "http://techtalks.tv/talks/lab-feb-25th-2/62129/"
+      Topics:
+        Regression Trees:
           Slides and Notes:
-            - {Trees: "https://davidrosenberg.github.io/mlcourse/Lectures/5c.trees.pdf"}
+            - {Regression Trees: "https://davidrosenberg.github.io/mlcourse/Lectures/5c.trees.pdf"}
           References (Supplemental):
             - "HTF 9.2"
-#            - "KPM 16-16.2.4"
-#        Bias and Variance:
-#          Slides and Notes:
-#            - {Bias and Variance: "docs/5b.bias-variance.pdf"}
-#     2015-02-26:
-#       Label: Lab
-#       Video: "http://techtalks.tv/talks/lab-16/61415/"
-#       Topics:
-#         Homework Review:
-#           Slides and Notes:
-#             - {"SGD, Parameter Tuning, and Directional Derivatives": "docs/5.Lab.misc.pdf"}
 
 - Title: Week 6
   Events:
-    2015-03-02:
+    2016-03-02:
       Label: Lecture
-#      Video: "http://techtalks.tv/talks/lecture-55/61417/"
+      Video: "http://techtalks.tv/talks/lecture-mar-2nd/62134/"
       Topics:
-        Trees:
+        Classification Trees:
           Slides and Notes:
-            - {Trees: "https://davidrosenberg.github.io/mlcourse/Lectures/6a.classification-trees.pdf"}
+            - {Classification Trees: "https://davidrosenberg.github.io/mlcourse/Lectures/6a.classification-trees.pdf"}
           References (Supplemental):
             - "HTF 9.2"
-#     2015-03-05:
-#       Label: Lab
-#       Video: "http://techtalks.tv/talks/lab-18/61420/"
-#       Topics:
-#         Probability Distribution Review (Shanshan Ding):
-#           Slides and Notes:
-#             - {Probability Distributions: "docs/probability-distributions.pdf"}
+        Review for One-Hour Test: []
+    2016-03-03:
+      Label: One-Hour Test
+      Topics: []
 
-# - Title: Week 7
-#   Events:
-#     2015-03-11:
-#       Label: Lecture
-#       Video: "http://techtalks.tv/talks/lecture-58/61424/"
-#       Topics:
+- Title: Week 7
+  Events:
+    2016-03-09:
+      Label: Lecture
+#      Video: "http://techtalks.tv/talks/lecture-58/61424/"
+      Topics:
+        Bias and Variance:
+          Slides and Notes:
+            - {Bias and Variance: "http://davidrosenberg.github.io/ml2015/docs/5b.bias-variance.pdf"}
+        Bagging:
+          Slides and Notes:
+            - {Bagging and Random Forests: "http://davidrosenberg.github.io/ml2015/docs/6a.bagging-random-forests.pdf"}
+          References (Supplemental):
+            - "HTF 8.7"
+        Random Forests:
+          References (Supplemental):
+            - "HTF Ch. 15"
+        Boosting:
+          References (Supplemental):
+            - "HTF Ch. 10"
+            - "KPM Ch. 16.4"
+          Slides and Notes:
+            - {Boosting: "http://davidrosenberg.github.io/ml2015/docs/6b.boosting.pdf"}
 #         Gradient Boosting:
 #           References (Supplemental):
 #             - {Friedman's GBM Paper: http://statweb.stanford.edu/~jhf/ftp/trebst.pdf}
@@ -206,13 +214,13 @@
 #             - "HTF Ch 11"
 #             - "KPM 16.5-16.5.5"
 #             - {Bengio's "Practical Recommendations": http://arxiv.org/pdf/1206.5533v2.pdf}
-#     2015-03-12:
+#     2016-03-12:
 #       Label: Project Adviser Meetings
 #       Topics: []
 
 # - Title: Week 8
 #   Events:
-#     2015-03-25:
+#     2016-03-25:
 #       Label: Lecture
 #       Video: "http://techtalks.tv/talks/lecture-61/61433/"
 #       Topics:
@@ -222,7 +230,7 @@
 #         Conditional Probability Models:
 #           Slides and Notes:
 #             - {Conditional Probability Models: "docs/8b.conditional-probability-models.pdf"}
-#     2015-03-26:
+#     2016-03-26:
 #       Label: Lab
 #       Video: "http://techtalks.tv/talks/lab-22/61435/"
 #       Topics:
@@ -235,14 +243,14 @@
 
 # - Title: Week 9
 #   Events:
-#     2015-04-01:
+#     2016-04-01:
 #       Label: Lecture
 #       Video: "http://techtalks.tv/talks/lecture-64/61438/"
 #       Topics:
 #         Midterm Exam Review:
 #           Slides and Notes:
 #             - {Midterm Review: "docs/9.midterm-review.pdf"}
-#     2015-04-02:
+#     2016-04-02:
 #       Label: Lab
 #       Video: "http://techtalks.tv/talks/lecture-64/61440/"
 #       Topics:
@@ -250,10 +258,10 @@
 
 # - Title: Week 10
 #   Events:
-#     2015-04-08:
+#     2016-04-08:
 #       Label: Midterm Exam
 #       Topics: []
-#     2015-04-09:
+#     2016-04-09:
 #       Label: Midterm Recap
 #       Topics:
 #         Midterm Recap:
@@ -262,7 +270,7 @@
 
 # - Title: Week 11
 #   Events:
-#     2015-04-15:
+#     2016-04-15:
 #       Label: Lecture
 #       Video: "http://techtalks.tv/talks/lecture-69/61447/"
 #       Topics:
@@ -272,13 +280,13 @@
 #           References (Supplemental):
 #             - "KPM Chapter 10"
 
-#     2015-04-16:
+#     2016-04-16:
 #       Label: Project Adviser Meetings
 #       Topics: []
 
 # - Title: Week 12
 #   Events:
-#     2015-04-22:
+#     2016-04-22:
 #       Label: Lecture
 #       Video: http://techtalks.tv/talks/lecture-72/61451/
 #       Topics:
@@ -291,7 +299,7 @@
 #           References (Supplemental):
 #             - "KPM 7.6"
 
-#     2015-04-23:
+#     2016-04-23:
 #       Label: Lab
 #       Video: "http://techtalks.tv/talks/lab-29/61453/"
 #       Topics:
@@ -303,7 +311,7 @@
 
 # - Title: Week 13
 #   Events:
-#     2015-04-29:
+#     2016-04-29:
 #       Label: Lecture
 #       Video: "http://techtalks.tv/talks/lecture-74/61456/"
 #       Topics:
@@ -312,7 +320,7 @@
 #         EM Algorithm (Introduction):
 #           Slides and Notes:
 #             - {k-means and Mixture Models: "docs/13.mixture-models.pdf"}
-#     2015-04-30:
+#     2016-04-30:
 #       Label: Lab (Shanshan)
 #       Video: "http://techtalks.tv/talks/lab-31/61457/"
 #       Topics:
@@ -323,7 +331,7 @@
 
 # - Title: Week 14
 #   Events:
-#     2015-05-06:
+#     2016-05-06:
 #       Label: Lecture
 #       Video: "http://techtalks.tv/talks/lecture-77/61460/"
 #       Topics:
@@ -334,6 +342,6 @@
 #           Slides and Notes:
 #             - {EM Algorithm: "docs/14b.EM-algorithm.pdf"}
 
-#     2015-05-07:
+#     2016-05-07:
 #       Label: Project Adviser Meetings
 #       Topics: []
