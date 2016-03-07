@@ -19,12 +19,12 @@ Submit link: "https://newclasses.nyu.edu/portal"
   Due: 2016-02-29
   PDF: {hw3.pdf: "http://davidrosenberg.github.io/mlcourse/Homework/hw3-sentiment/hw3.pdf"}
   ZIP: {hw3.zip: "http://davidrosenberg.github.io/mlcourse/Homework/hw3.zip"}
-# -
-#   Label: Homework 4
-#   Description: Kernel Methods and Lagrangian Duality
-#   Due: 2015-03-03
-#   PDF: {hw4.pdf: "homework/hw4.pdf"}
-#   ZIP: {hw4.zip: "homework/hw4.zip"}
+-
+  Label: Homework 4
+  Description: Linear Algebra, Kernels, Duality, and Trees
+  Due: 2015-03-22
+  PDF: {hw4.pdf: "http://davidrosenberg.github.io/mlcourse/Homework/hw4-kernels/hw4.pdf"}
+  ZIP: {hw4.zip: "http://davidrosenberg.github.io/mlcourse/Homework/hw4.zip"}
 # -
 #   Label: Homework 5
 #   Description: Trees and Ensemble Methods
