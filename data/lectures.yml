@@ -184,12 +184,9 @@
       Label: Lecture
 #      Video: "http://techtalks.tv/talks/lecture-58/61424/"
       Topics:
-        Bias and Variance:
+        Bootstrap and Bagging:
           Slides and Notes:
-            - {Bias and Variance: "http://davidrosenberg.github.io/ml2015/docs/5b.bias-variance.pdf"}
-        Bagging:
-          Slides and Notes:
-            - {Bagging and Random Forests: "http://davidrosenberg.github.io/ml2015/docs/6a.bagging-random-forests.pdf"}
+            - {"Bootstrap, Bagging, and Random Forests": "https://davidrosenberg.github.io/mlcourse/Lectures/7a.bagging-random-forests.pdf"}
           References (Supplemental):
             - "HTF 8.7"
         Random Forests:
@@ -198,9 +195,9 @@
         Boosting:
           References (Supplemental):
             - "HTF Ch. 10"
-            - "KPM Ch. 16.4"
+#            - "KPM Ch. 16.4"
           Slides and Notes:
-            - {Boosting: "http://davidrosenberg.github.io/ml2015/docs/6b.boosting.pdf"}
+            - {Boosting: "https://davidrosenberg.github.io/mlcourse/Lectures/7b.boosting.pdf"}
 #         Gradient Boosting:
 #           References (Supplemental):
 #             - {Friedman's GBM Paper: http://statweb.stanford.edu/~jhf/ftp/trebst.pdf}
