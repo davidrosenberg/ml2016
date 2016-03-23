@@ -198,20 +198,29 @@
 #            - "KPM Ch. 16.4"
           Slides and Notes:
             - {Boosting: "https://davidrosenberg.github.io/mlcourse/Lectures/7b.boosting.pdf"}
-#         Gradient Boosting:
-#           References (Supplemental):
-#             - {Friedman's GBM Paper: http://statweb.stanford.edu/~jhf/ftp/trebst.pdf}
-#             - {Ridgeway's GBM Guide: http://www.saedsayad.com/docs/gbm2.pdf}
-#           Slides and Notes:
-#             - {Gradient Boosting: "docs/7a.gradient-boosting.pdf"}
-#         Neural Networks:
-#           Slides and Notes:
-#             - {Neural Networks: "docs/7b.neural-networks.pdf"}
-#           References (Supplemental):
-#             - "HTF Ch 11"
-#             - "KPM 16.5-16.5.5"
-#             - {Bengio's "Practical Recommendations": http://arxiv.org/pdf/1206.5533v2.pdf}
-#     2016-03-12:
+    2016-03-10:
+      Label: Project Adviser Meetings
+      Topics: []
+
+- Title: Week 8
+  Events:
+    2016-03-23:
+      Label: Lecture
+#      Video: "http://techtalks.tv/talks/lecture-58/61424/"
+      Topics:
+        Adaboost:
+          References (Supplemental):
+            - "HTF Ch. 10"
+#            - "KPM Ch. 16.4"
+          Slides and Notes:
+            - {Adaboost: "https://davidrosenberg.github.io/mlcourse/Lectures/8a.adaboost.pdf"}
+        Gradient Boosting:
+          References (Supplemental):
+            - {Friedman's GBM Paper: http://statweb.stanford.edu/~jhf/ftp/trebst.pdf}
+            - {Ridgeway's GBM Guide: http://www.saedsayad.com/docs/gbm2.pdf}
+          Slides and Notes:
+            - {Gradient Boosting: "https://davidrosenberg.github.io/mlcourse/Lectures/8b.gradient-boosting.pdf"}
+#     2016-03-24:
 #       Label: Project Adviser Meetings
 #       Topics: []
 
