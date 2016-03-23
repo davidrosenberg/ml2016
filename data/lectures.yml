@@ -208,7 +208,7 @@
       Label: Lecture
 #      Video: "http://techtalks.tv/talks/lecture-58/61424/"
       Topics:
-        Adaboost:
+        Boosting:
           References (Supplemental):
             - "HTF Ch. 10"
 #            - "KPM Ch. 16.4"
