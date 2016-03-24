@@ -5,7 +5,7 @@ const fs = require('fs');
 const handlebarsFactory = require('handlebars');
 const moment = require('moment');
 const assert = require('assert');
-const toSlug = require('to-slug');
+const toSlug = require('slugg');
 
 const SLIDES_AND_NOTES = 'Slides and Notes';
 const REFERENCES_PRE = 'References (Pre)';
