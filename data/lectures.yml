@@ -220,9 +220,14 @@
             - {Ridgeway's GBM Guide: http://www.saedsayad.com/docs/gbm2.pdf}
           Slides and Notes:
             - {Gradient Boosting: "https://davidrosenberg.github.io/mlcourse/Lectures/8b.gradient-boosting.pdf"}
-#     2016-03-24:
-#       Label: Project Adviser Meetings
-#       Topics: []
+    2016-03-24:
+      Topics:
+        Variations on Gradient Boosting:
+          Slides and Notes:
+            - {More Boosting: "https://davidrosenberg.github.io/mlcourse/Lectures/8.Lab.more-boosting.pdf"}
+          References (Supplemental):
+            - {XGBoost Paper: http://arxiv.org/abs/1603.02754}
+            - {"Bühlmann and Hothorn's Boosting Paper": https://projecteuclid.org/euclid.ss/1207580163}
 
 # - Title: Week 8
 #   Events:
