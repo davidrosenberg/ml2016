@@ -4,13 +4,13 @@ Submit link: "https://newclasses.nyu.edu/portal"
 -
   Label: Homework 1
   Description: Ridge regression and SGD
-  Due: 2015-02-05
+  Due: 2016-02-05
   PDF: {hw1.pdf: "http://davidrosenberg.github.io/mlcourse/Homework/hw1-sgd/hw1.pdf"}
   ZIP: {hw1.zip: "http://davidrosenberg.github.io/mlcourse/Homework/hw1.zip"}
 -
   Label: Homework 2
   Description: Lasso regression
-  Due: 2015-02-16
+  Due: 2016-02-16
   PDF: {hw2.pdf: "http://davidrosenberg.github.io/mlcourse/Homework/hw2-lasso/hw2.pdf"}
   ZIP: {hw2.zip: "http://davidrosenberg.github.io/mlcourse/Homework/hw2.zip"}
 -
@@ -22,24 +22,24 @@ Submit link: "https://newclasses.nyu.edu/portal"
 -
   Label: Homework 4
   Description: Linear Algebra, Kernels, Duality, and Trees
-  Due: 2015-03-22
+  Due: 2016-03-22
   PDF: {hw4.pdf: "http://davidrosenberg.github.io/mlcourse/Homework/hw4-kernels/hw4.pdf"}
   ZIP: {hw4.zip: "http://davidrosenberg.github.io/mlcourse/Homework/hw4.zip"}
 -
   Label: Homework 5
   Description: Trees and Ensemble Methods
-  Due: 2015-04-04
-  PDF: {hw5.pdf: "http://davidrosenberg.github.io/mlcourse/Homework/hw4-boosting/hw4.pdf"}
-  ZIP: {hw5.zip: "http://davidrosenberg.github.io/mlcourse/Homework/hw4.zip"}
+  Due: 2016-04-04
+  PDF: {hw5.pdf: "http://davidrosenberg.github.io/mlcourse/Homework/hw5-boosting/hw5.pdf"}
+  ZIP: {hw5.zip: "http://davidrosenberg.github.io/mlcourse/Homework/hw5.zip"}
 # -
 #   Label: Homework 6
 #   Description: Midterm Review
-#   Due: 2015-04-10
+#   Due: 2016-04-10
 #   PDF: {hw6.pdf: "homework/hw6.pdf"}
 #   ZIP: {hw6.zip: "homework/hw6.zip"}
 # -
 #   Label: Homework 7
 #   Description: Tikhonov, Ivanov, Square Hinge, and GLMs
-#   Due: 2015-04-21
+#   Due: 2016-04-21
 #   PDF: {hw7.pdf: "homework/hw7.pdf"}
 #   ZIP: {hw7.zip: "homework/hw7.zip"}
