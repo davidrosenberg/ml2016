@@ -182,7 +182,7 @@
   Events:
     2016-03-09:
       Label: Lecture
-#      Video: "http://techtalks.tv/talks/lecture-58/61424/"
+      Video: "http://techtalks.tv/talks/lecture-mar-9th/62139/"
       Topics:
         Bootstrap and Bagging:
           Slides and Notes:
@@ -206,7 +206,7 @@
   Events:
     2016-03-23:
       Label: Lecture
-#      Video: "http://techtalks.tv/talks/lecture-58/61424/"
+      Video: "http://techtalks.tv/talks/lecture-mar-23rd/62146/"
       Topics:
         Boosting:
           References (Supplemental):
@@ -221,6 +221,8 @@
           Slides and Notes:
             - {Gradient Boosting: "https://davidrosenberg.github.io/mlcourse/Lectures/8b.gradient-boosting.pdf"}
     2016-03-24:
+      Label: Lab
+      Video: "http://techtalks.tv/talks/lab-mar-24th-2/62148/"
       Topics:
         Variations on Gradient Boosting:
           Slides and Notes:
