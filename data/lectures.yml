@@ -231,6 +231,22 @@
             - {XGBoost Paper: http://arxiv.org/abs/1603.02754}
             - {"Bühlmann and Hothorn's Boosting Paper": https://projecteuclid.org/euclid.ss/1207580163}
 
+- Title: Week 9
+  Events:
+    2016-03-30:
+      Label: Lecture
+#       Video: "http://techtalks.tv/talks/lecture-64/61438/"
+      Topics:
+        Multiclass Classification:
+          Slides and Notes:
+            - {Multiclass Classification: "https://davidrosenberg.github.io/mlcourse/Lectures/9a.multiclass.pdf"}
+#     2016-04-02:
+#       Label: Lab
+#       Video: "http://techtalks.tv/talks/lecture-64/61440/"
+#       Topics:
+#         Midterm Exam Review:
+
+
 # - Title: Week 8
 #   Events:
 #     2016-03-25:
