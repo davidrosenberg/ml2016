@@ -31,6 +31,12 @@ Submit link: "https://newclasses.nyu.edu/portal"
   Due: 2016-04-04
   PDF: {hw5.pdf: "http://davidrosenberg.github.io/mlcourse/Homework/hw5-boosting/hw5.pdf"}
   ZIP: {hw5.zip: "http://davidrosenberg.github.io/mlcourse/Homework/hw5.zip"}
+-
+  Label: Homework 6
+  Description: Multiclass Hinge Loss and Multiclass SVM
+  Due: 2016-04-11
+  PDF: {hw6.pdf: "http://davidrosenberg.github.io/mlcourse/Homework/hw6-multiclass/hw6.pdf"}
+  ZIP: {hw6.zip: "http://davidrosenberg.github.io/mlcourse/Homework/hw6.zip"}
 # -
 #   Label: Homework 6
 #   Description: Midterm Review

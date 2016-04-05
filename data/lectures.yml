@@ -235,16 +235,16 @@
   Events:
     2016-03-30:
       Label: Lecture
-#       Video: "http://techtalks.tv/talks/lecture-64/61438/"
+      Video: "http://techtalks.tv/talks/lecture-mar-30th/62154/"
       Topics:
         Multiclass Classification:
           Slides and Notes:
             - {Multiclass Classification: "https://davidrosenberg.github.io/mlcourse/Lectures/9a.multiclass.pdf"}
-#     2016-04-02:
-#       Label: Lab
-#       Video: "http://techtalks.tv/talks/lecture-64/61440/"
-#       Topics:
-#         Midterm Exam Review:
+    2016-04-02:
+      Label: Lab
+      Video: "http://techtalks.tv/talks/lab-mar-31st-2/62156/"
+      Topics:
+        Midterm Exam Recap:
 
 
 # - Title: Week 8
