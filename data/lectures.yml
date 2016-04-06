@@ -240,6 +240,9 @@
         Multiclass Classification:
           Slides and Notes:
             - {Multiclass Classification: "https://davidrosenberg.github.io/mlcourse/Lectures/9a.multiclass.pdf"}
+          References (Supplemental):
+            - {Shalev-Shwartz and Ben-David's Book (Ch 17): "http://www.cs.huji.ac.il/~shais/UnderstandingMachineLearning/copy.html"}
+
     2016-04-02:
       Label: Lab
       Video: "http://techtalks.tv/talks/lab-mar-31st-2/62156/"
@@ -247,18 +250,16 @@
         Midterm Exam Recap:
 
 
-# - Title: Week 8
-#   Events:
-#     2016-03-25:
-#       Label: Lecture
+- Title: Week 10
+  Events:
+    2016-04-06:
+      Label: Lecture
 #       Video: "http://techtalks.tv/talks/lecture-61/61433/"
-#       Topics:
-#         Probabilistic Modeling:
-#           Slides and Notes:
-#             - {CitySense and CabSense: "docs/8a.citysense.pdf"}
-#         Conditional Probability Models:
-#           Slides and Notes:
-#             - {Conditional Probability Models: "docs/8b.conditional-probability-models.pdf"}
+      Topics:
+        Conditional Probability Models:
+          Slides and Notes:
+            - {CitySense and CabSense: "https://davidrosenberg.github.io/mlcourse/Lectures/10a.citysense.pdf"}
+            - {Conditional Probability Models: "https://davidrosenberg.github.io/mlcourse/Lectures/10b.conditional-probability-models.pdf"}
 #     2016-03-26:
 #       Label: Lab
 #       Video: "http://techtalks.tv/talks/lab-22/61435/"
