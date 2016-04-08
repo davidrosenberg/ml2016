@@ -260,31 +260,26 @@
           Slides and Notes:
             - {CitySense and CabSense: "https://davidrosenberg.github.io/mlcourse/Lectures/10a.citysense.pdf"}
             - {Conditional Probability Models: "https://davidrosenberg.github.io/mlcourse/Lectures/10b.conditional-probability-models.pdf"}
-#     2016-03-26:
-#       Label: Lab
+    2016-04-07:
+      Label: Lab
 #       Video: "http://techtalks.tv/talks/lab-22/61435/"
-#       Topics:
-#         Generalized Linear Models:
-#           Slides and Notes:
-#             - {Generalized Linear Models: "docs/8.Lab.glm.pdf"}
+      Topics:
+        Test Review:
+          Slides and Notes:
+            - {Test Review: "https://davidrosenberg.github.io/mlcourse/Lectures/10.Lab.test-review.pdf"}
 #           References (Supplemental):
 #             - {Part III of Andrew Ng's CS 229 Notes: http://cs229.stanford.edu/notes/cs229-notes1.pdf}
 
 
-# - Title: Week 9
-#   Events:
-#     2016-04-01:
-#       Label: Lecture
+- Title: Week 11
+  Events:
+    2016-04-13:
+      Label: Two-Hour Test
 #       Video: "http://techtalks.tv/talks/lecture-64/61438/"
-#       Topics:
-#         Midterm Exam Review:
-#           Slides and Notes:
-#             - {Midterm Review: "docs/9.midterm-review.pdf"}
-#     2016-04-02:
-#       Label: Lab
-#       Video: "http://techtalks.tv/talks/lecture-64/61440/"
-#       Topics:
-#         Midterm Exam Review:
+      Topics: []
+    2016-04-02:
+      Label: Project Adviser Meetings
+      Topics: []
 
 # - Title: Week 10
 #   Events:
