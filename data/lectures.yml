@@ -277,15 +277,42 @@
       Label: Two-Hour Test
 #       Video: "http://techtalks.tv/talks/lecture-64/61438/"
       Topics: []
-    2016-04-02:
+    2016-04-14:
       Label: Project Adviser Meetings
       Topics: []
 
-# - Title: Week 10
-#   Events:
-#     2016-04-08:
-#       Label: Midterm Exam
-#       Topics: []
+- Title: Week 12
+  Events:
+    2016-04-20:
+      Label: Lecture
+      Topics:
+        Conditional Independence:
+        Bayesian Networks:
+        Naive Bayes:
+          Slides and Notes:
+            - {Bayesian Networks: "https://davidrosenberg.github.io/mlcourse/Lectures/12a.bayesian-networks.pdf"}
+        Bayesian Methods:
+          Slides and Notes:
+            - {Bayesian Methods: "https://davidrosenberg.github.io/mlcourse/Lectures/12b.bayesian-methods.pdf"}
+    2016-04-21:
+      Label: Lab
+      Topics:
+        Second Test Recap:
+
+- Title: Week 13
+  Events:
+    2016-04-27:
+      Label: Lecture
+      Topics:
+        Bayesian Regression:
+          Slides and Notes:
+            - {Bayesian Regression: "https://davidrosenberg.github.io/mlcourse/Lectures/13a.bayesian-regression.pdf"}
+        k-means Clustering:
+        Gaussian Mixture Models:
+        EM Algorithm (Introduction):
+          Slides and Notes:
+             - {k-means and Mixture Models: "https://davidrosenberg.github.io/mlcourse/Lectures/13b.mixture-models.pdf"}
+
 #     2016-04-09:
 #       Label: Midterm Recap
 #       Topics:
