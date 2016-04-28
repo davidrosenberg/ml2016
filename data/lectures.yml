@@ -254,7 +254,7 @@
   Events:
     2016-04-06:
       Label: Lecture
-#       Video: "http://techtalks.tv/talks/lecture-61/61433/"
+      Video: "https://www.youtube.com/watch?v=eqnO3jR4GWk"
       Topics:
         Conditional Probability Models:
           Slides and Notes:
@@ -262,7 +262,7 @@
             - {Conditional Probability Models: "https://davidrosenberg.github.io/mlcourse/Lectures/10b.conditional-probability-models.pdf"}
     2016-04-07:
       Label: Lab
-#       Video: "http://techtalks.tv/talks/lab-22/61435/"
+      Video: "https://www.youtube.com/watch?v=5nyRwIuqlME"
       Topics:
         Test Review:
           Slides and Notes:
@@ -275,7 +275,6 @@
   Events:
     2016-04-13:
       Label: Two-Hour Test
-#       Video: "http://techtalks.tv/talks/lecture-64/61438/"
       Topics: []
     2016-04-14:
       Label: Project Adviser Meetings
@@ -285,6 +284,7 @@
   Events:
     2016-04-20:
       Label: Lecture
+      Video: "https://www.youtube.com/watch?v=RHA1hso0Dgg"
       Topics:
         Conditional Independence:
         Bayesian Networks:
@@ -296,6 +296,7 @@
             - {Bayesian Methods: "https://davidrosenberg.github.io/mlcourse/Lectures/12b.bayesian-methods.pdf"}
     2016-04-21:
       Label: Lab
+      Video: "https://www.youtube.com/watch?v=WCJu0yATu5o"
       Topics:
         Second Test Recap:
 
@@ -303,63 +304,24 @@
   Events:
     2016-04-27:
       Label: Lecture
+      Video: "http://techtalks.tv/talks/lecture-apr-27th/62185/"
       Topics:
         Bayesian Regression:
           Slides and Notes:
             - {Bayesian Regression: "https://davidrosenberg.github.io/mlcourse/Lectures/13a.bayesian-regression.pdf"}
         k-means Clustering:
         Gaussian Mixture Models:
-        EM Algorithm (Introduction):
           Slides and Notes:
              - {k-means and Mixture Models: "https://davidrosenberg.github.io/mlcourse/Lectures/13b.mixture-models.pdf"}
+    2016-04-28:
+      Label: Lab
+      Topics:
+        EM Algorithm:
+          Slides and Notes:
+             - {EM Algorithm: "https://davidrosenberg.github.io/mlcourse/Lectures/13.Lab.EM-algorithm.pdf"}
+          References (Supplemental):
+            - {Vaida's EM convergence paper: "http://www3.stat.sinica.edu.tw/statistica/oldpdf/a15n316.pdf"}
 
-#     2016-04-09:
-#       Label: Midterm Recap
-#       Topics:
-#         Midterm Recap:
-#           Slides and Notes:
-#             - {Midterm Recap: "docs/10.Lab.MidtermRecap.pdf"}
-
-# - Title: Week 11
-#   Events:
-#     2016-04-15:
-#       Label: Lecture
-#       Video: "http://techtalks.tv/talks/lecture-69/61447/"
-#       Topics:
-#         Bayesian Networks:
-#           Slides and Notes:
-#             - {Bayesian Networks: "docs/11.bayesian-networks.pdf"}
-#           References (Supplemental):
-#             - "KPM Chapter 10"
-
-#     2016-04-16:
-#       Label: Project Adviser Meetings
-#       Topics: []
-
-# - Title: Week 12
-#   Events:
-#     2016-04-22:
-#       Label: Lecture
-#       Video: http://techtalks.tv/talks/lecture-72/61451/
-#       Topics:
-#         Bayesian Methods:
-#           References (Supplemental):
-#             - "KPM Chapter 5"
-#           Slides and Notes:
-#             - {Bayesian Methods: "docs/12.bayesian-methods.pdf"}
-#         Bayesian Regression:
-#           References (Supplemental):
-#             - "KPM 7.6"
-
-#     2016-04-23:
-#       Label: Lab
-#       Video: "http://techtalks.tv/talks/lab-29/61453/"
-#       Topics:
-#         Beta-Binomial Model:
-#         Naive Bayes:
-#         Bag-of-Words (Bernoulli Version):
-#           Slides and Notes:
-#             - {Bayesian Review and Naive Bayes: "docs/12.Lab.bayesian-methods.pdf"}
 
 # - Title: Week 13
 #   Events:
