@@ -322,6 +322,21 @@
           References (Supplemental):
             - {Vaida's EM convergence paper: "http://www3.stat.sinica.edu.tw/statistica/oldpdf/a15n316.pdf"}
 
+- Title: Week 14
+  Events:
+    2016-05-04:
+      Label: Lecture
+#      Video: "http://techtalks.tv/talks/lecture-apr-27th/62185/"
+      Topics:
+        EM Algorithm (continued):
+          Slides and Notes:
+            - {EM Algorithm: "https://davidrosenberg.github.io/mlcourse/Lectures/14a.EM-algorithm.pdf"}
+        Neural Networks:
+          Slides and Notes:
+             - {Neural Networks: "https://davidrosenberg.github.io/mlcourse/Lectures/14b.neural-networks.pdf"}
+    2016-05-05:
+      Label: Project Adviser Meetings
+      Topics: []
 
 # - Title: Week 13
 #   Events:
