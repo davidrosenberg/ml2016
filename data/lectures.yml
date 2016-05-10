@@ -315,6 +315,7 @@
              - {k-means and Mixture Models: "https://davidrosenberg.github.io/mlcourse/Lectures/13b.mixture-models.pdf"}
     2016-04-28:
       Label: Lab
+      Video: "http://techtalks.tv/talks/lab-apr-28th-2/62187/"
       Topics:
         EM Algorithm:
           Slides and Notes:
@@ -326,7 +327,7 @@
   Events:
     2016-05-04:
       Label: Lecture
-#      Video: "http://techtalks.tv/talks/lecture-apr-27th/62185/"
+      Video: "http://techtalks.tv/talks/lecture-may-4th/62192/"
       Topics:
         EM Algorithm (continued):
           Slides and Notes:
@@ -338,39 +339,8 @@
       Label: Project Adviser Meetings
       Topics: []
 
-# - Title: Week 13
-#   Events:
-#     2016-04-29:
-#       Label: Lecture
-#       Video: "http://techtalks.tv/talks/lecture-74/61456/"
-#       Topics:
-#         k-means Clustering:
-#         Gaussian Mixture Models:
-#         EM Algorithm (Introduction):
-#           Slides and Notes:
-#             - {k-means and Mixture Models: "docs/13.mixture-models.pdf"}
-#     2016-04-30:
-#       Label: Lab (Shanshan)
-#       Video: "http://techtalks.tv/talks/lab-31/61457/"
-#       Topics:
-#         SVD, PCA, Linear Discriminant Analysis:
-#           Slides and Notes:
-# #            - {PCA, SVD, and Fisher's LDA: "docs/13.Lab.PCA-SVD-LDA.pdf"}
-#             - {PCA-SVD-LDA: "docs/13.Lab.PCA-SVD-LDA.pdf"}
-
-# - Title: Week 14
-#   Events:
-#     2016-05-06:
-#       Label: Lecture
-#       Video: "http://techtalks.tv/talks/lecture-77/61460/"
-#       Topics:
-#         Information Theory:
-#           Slides and Notes:
-#             - {Information Theory: "docs/14a.information-theory.pdf"}
-#         EM Algorithm (General):
-#           Slides and Notes:
-#             - {EM Algorithm: "docs/14b.EM-algorithm.pdf"}
-
-#     2016-05-07:
-#       Label: Project Adviser Meetings
-#       Topics: []
+- Title: Week 15
+  Events:
+    2016-05-11:
+      Label: Poster Session (In CDS, 6-8pm)
+      Topics: []
