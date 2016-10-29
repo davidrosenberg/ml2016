@@ -5,41 +5,41 @@ Submit link: "https://newclasses.nyu.edu/portal"
   Label: Homework 1
   Description: Ridge regression and SGD
   Due: 2016-02-05
-  PDF: {hw1.pdf: "http://davidrosenberg.github.io/mlcourse/Homework/hw1-sgd/hw1.pdf"}
-  ZIP: {hw1.zip: "http://davidrosenberg.github.io/mlcourse/Homework/hw1.zip"}
+  PDF: {hw1.pdf: "https://davidrosenberg.github.io/mlcourse/Archive/2016/Homework/hw1-sgd/hw1.pdf"}
+  ZIP: {hw1.zip: "https://davidrosenberg.github.io/mlcourse/Archive/2016/Homework/hw1.zip"}
 -
   Label: Homework 2
   Description: Lasso regression
   Due: 2016-02-16
-  PDF: {hw2.pdf: "http://davidrosenberg.github.io/mlcourse/Homework/hw2-lasso/hw2.pdf"}
-  ZIP: {hw2.zip: "http://davidrosenberg.github.io/mlcourse/Homework/hw2.zip"}
+  PDF: {hw2.pdf: "https://davidrosenberg.github.io/mlcourse/Archive/2016/Homework/hw2-lasso/hw2.pdf"}
+  ZIP: {hw2.zip: "https://davidrosenberg.github.io/mlcourse/Archive/2016/Homework/hw2.zip"}
 -
   Label: Homework 3
   Description: SVM and Sentiment Analysis
   Due: 2016-02-29
-  PDF: {hw3.pdf: "http://davidrosenberg.github.io/mlcourse/Homework/hw3-sentiment/hw3.pdf"}
-  ZIP: {hw3.zip: "http://davidrosenberg.github.io/mlcourse/Homework/hw3.zip"}
+  PDF: {hw3.pdf: "https://davidrosenberg.github.io/mlcourse/Archive/2016/Homework/hw3-sentiment/hw3.pdf"}
+  ZIP: {hw3.zip: "https://davidrosenberg.github.io/mlcourse/Archive/2016/Homework/hw3.zip"}
 -
   Label: Homework 4
   Description: Linear Algebra, Kernels, Duality, and Trees
   Due: 2016-03-22
-  PDF: {hw4.pdf: "http://davidrosenberg.github.io/mlcourse/Homework/hw4-kernels/hw4.pdf"}
-  ZIP: {hw4.zip: "http://davidrosenberg.github.io/mlcourse/Homework/hw4.zip"}
+  PDF: {hw4.pdf: "https://davidrosenberg.github.io/mlcourse/Archive/2016/Homework/hw4-kernels/hw4.pdf"}
+  ZIP: {hw4.zip: "https://davidrosenberg.github.io/mlcourse/Archive/2016/Homework/hw4.zip"}
 -
   Label: Homework 5
   Description: Trees and Ensemble Methods
   Due: 2016-04-04
-  PDF: {hw5.pdf: "http://davidrosenberg.github.io/mlcourse/Homework/hw5-boosting/hw5.pdf"}
-  ZIP: {hw5.zip: "http://davidrosenberg.github.io/mlcourse/Homework/hw5.zip"}
+  PDF: {hw5.pdf: "https://davidrosenberg.github.io/mlcourse/Archive/2016/Homework/hw5-boosting/hw5.pdf"}
+  ZIP: {hw5.zip: "https://davidrosenberg.github.io/mlcourse/Archive/2016/Homework/hw5.zip"}
 -
   Label: Homework 6
   Description: Multiclass Hinge Loss and Multiclass SVM
   Due: 2016-04-11
-  PDF: {hw6.pdf: "http://davidrosenberg.github.io/mlcourse/Homework/hw6-multiclass/hw6.pdf"}
-  ZIP: {hw6.zip: "http://davidrosenberg.github.io/mlcourse/Homework/hw6.zip"}
+  PDF: {hw6.pdf: "https://davidrosenberg.github.io/mlcourse/Archive/2016/Homework/hw6-multiclass/hw6.pdf"}
+  ZIP: {hw6.zip: "https://davidrosenberg.github.io/mlcourse/Archive/2016/Homework/hw6.zip"}
 -
   Label: Homework 7
   Description: Bayesian Methods and the Beta/Binomial Model
   Due: 2016-05-10
-  PDF: {hw7.pdf: "https://davidrosenberg.github.io/mlcourse/Homework/hw7-bayesian/hw7.pdf"}
-  ZIP: {hw7.zip: "https://davidrosenberg.github.io/mlcourse/Homework/hw7.zip"}
+  PDF: {hw7.pdf: "https://davidrosenberg.github.io/mlcourse/Archive/2016/Homework/hw7-bayesian/hw7.pdf"}
+  ZIP: {hw7.zip: "https://davidrosenberg.github.io/mlcourse/Archive/2016/Homework/hw7.zip"}

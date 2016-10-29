@@ -10,16 +10,16 @@
           References (Supplemental):
             - {KPM Ch 1: "http://www.cs.ubc.ca/~murphyk/MLbook/pml-intro-22may12.pdf"}
           Slides and Notes:
-            - {Course Logistics: "https://davidrosenberg.github.io/mlcourse/Lectures/1a.course-logistics.pdf"}
+            - {Course Logistics: "https://davidrosenberg.github.io/mlcourse/Archive/2016/Lectures/1a.course-logistics.pdf"}
         Statistical learning theory framework:
           Slides and Notes:
-            - {Statistical Learning Theory: "https://davidrosenberg.github.io/mlcourse/Lectures/1b.intro-slt-riskdecomp.pdf"}
+            - {Statistical Learning Theory: "https://davidrosenberg.github.io/mlcourse/Archive/2016/Lectures/1b.intro-slt-riskdecomp.pdf"}
         Gradient and stochastic gradient descent:
           References (Supplemental):
             - {Bottou's SGD Tricks: "http://leon.bottou.org/papers/bottou-tricks-2012"}
             - BV Preface, Ch 1
           Slides and Notes:
-            - {Stochastic Gradient Descent: "https://davidrosenberg.github.io/mlcourse/Lectures/1c.stoch-grad-descent.pdf"}
+            - {Stochastic Gradient Descent: "https://davidrosenberg.github.io/mlcourse/Archive/2016/Lectures/1c.stoch-grad-descent.pdf"}
     2016-01-28:
       Label: Lab
       Video: "http://techtalks.tv/talks/lecture-jan-28th-2/62100/"
@@ -29,9 +29,9 @@
             - {Barnes's "Matrix Differentiation" notes: "http://www.atmos.washington.edu/~dennis/MatrixCalculus.pdf"}
             - {Felippa's "Matrix Calculus" chapter: "http://www.colorado.edu/engineering/cas/courses.d/IFEM.d/IFEM.AppF.d/IFEM.AppF.pdf"}
           Slides and Notes:
-            - {Levent's Differentiation Slides: "http://davidrosenberg.github.io/mlcourse/Labs/1differentiation.pdf"}
-            - {Matrix Differentiation: "http://davidrosenberg.github.io/ml2015/docs/matrix-differentiation.pdf"}
-            - {Directional Derivatives and Approximation: "https://davidrosenberg.github.io/mlcourse/Notes/directional-derivative.pdf"}
+            - {Levent's Differentiation Slides: "https://davidrosenberg.github.io/mlcourse/Archive/2016/Labs/1differentiation.pdf"}
+            - {Matrix Differentiation: "https://davidrosenberg.github.io/ml2015/docs/matrix-differentiation.pdf"}
+            - {Directional Derivatives and Approximation: "https://davidrosenberg.github.io/mlcourse/Archive/2016/Notes/directional-derivative.pdf"}
 #          References (Supplemental):
 #            - {The Matrix Cookbook: "refs/matrixCookbook-15Nov2012.pdf"}
 -
@@ -45,14 +45,14 @@
 #          References (Pre):
 #            - "KPM 16.2.1"
           Slides and Notes:
-            - {Excess Risk Decomposition: "http://davidrosenberg.github.io/mlcourse/Lectures/2a.excess-risk-decomposition.pdf"}
+            - {Excess Risk Decomposition: "https://davidrosenberg.github.io/mlcourse/Archive/2016/Lectures/2a.excess-risk-decomposition.pdf"}
         L1/L2 regularization:
           References (Supplemental):
             - "HTF Ch. 3"
             - {Bottou's SGD Tricks: "refs/bottou-sgd-tricks-2012.pdf"}
           Slides and Notes:
-            - {L1 and L2 regularization: "https://davidrosenberg.github.io/mlcourse/Lectures/2b.L1L2-regularization.pdf"}
-            - {Completing the Square: "http://davidrosenberg.github.io/mlcourse/Notes/completing-the-square.pdf"}
+            - {L1 and L2 regularization: "https://davidrosenberg.github.io/mlcourse/Archive/2016/Lectures/2b.L1L2-regularization.pdf"}
+            - {Completing the Square: "https://davidrosenberg.github.io/mlcourse/Archive/2016/Notes/completing-the-square.pdf"}
         Optimization methods for Lasso:
     2016-02-04:
       Label: Lab
@@ -60,12 +60,12 @@
       Topics:
         Elastic Net:
           Slides and Notes:
-            - {Grouping and Elastic Net: "http://davidrosenberg.github.io/mlcourse/Lectures/2.Lab.elastic-net.pdf"}
+            - {Grouping and Elastic Net: "https://davidrosenberg.github.io/mlcourse/Archive/2016/Lectures/2.Lab.elastic-net.pdf"}
         Directional Derivatives and Optima:
           References (Supplemental):
             - {Boyd's subgradient notes: "http://web.stanford.edu/class/ee364b/lectures.html"}
           Slides and Notes:
-            - {Directional Derivatives and Optima: "http://davidrosenberg.github.io/mlcourse/Lectures/2.Lab.directional-derivatives.pdf"}
+            - {Directional Derivatives and Optima: "https://davidrosenberg.github.io/mlcourse/Archive/2016/Lectures/2.Lab.directional-derivatives.pdf"}
 -
   Title: Week 3
   Events:
@@ -75,13 +75,13 @@
       Topics:
         Loss Functions:
           Slides and Notes:
-            - {Loss functions: "https://davidrosenberg.github.io/mlcourse/Lectures/3a.loss-functions.pdf"}
+            - {Loss functions: "https://davidrosenberg.github.io/mlcourse/Archive/2016/Lectures/3a.loss-functions.pdf"}
         Convex Optimization:
           References (Pre):
-            - {Warmup Exercises: "https://davidrosenberg.github.io/mlcourse/Notes/svm-lecture-prep.pdf"}
+            - {Warmup Exercises: "https://davidrosenberg.github.io/mlcourse/Archive/2016/Notes/svm-lecture-prep.pdf"}
           Slides and Notes:
-            - {Convex optimization: "https://davidrosenberg.github.io/mlcourse/Lectures/3b.convex-optimization.pdf"}
-            - {Extreme Abridgement of BV: "https://davidrosenberg.github.io/mlcourse/Notes/convex-optimization.pdf"}
+            - {Convex optimization: "https://davidrosenberg.github.io/mlcourse/Archive/2016/Lectures/3b.convex-optimization.pdf"}
+            - {Extreme Abridgement of BV: "https://davidrosenberg.github.io/mlcourse/Archive/2016/Notes/convex-optimization.pdf"}
           References (Supplemental):
             - {Andrew Ng's CS229 SVM Notes: "http://cs229.stanford.edu/notes/cs229-notes3.pdf"}
             - BV Ch 1-5
@@ -89,8 +89,8 @@
           References (Supplemental):
             - "HTF 12.2.1 - 12.2.2"
           Slides and Notes:
-            - {SVM (slides): "https://davidrosenberg.github.io/mlcourse/Lectures/3c.SVM.pdf"}
-            - {SVM (notes): "https://davidrosenberg.github.io/mlcourse/Notes/svm-notes.pdf"}
+            - {SVM (slides): "https://davidrosenberg.github.io/mlcourse/Archive/2016/Lectures/3c.SVM.pdf"}
+            - {SVM (notes): "https://davidrosenberg.github.io/mlcourse/Archive/2016/Notes/svm-notes.pdf"}
 
     2016-02-11:
       Label: Lab
@@ -102,7 +102,7 @@
             - "HTF 3.2.0,4.5"
             - "HTF pp. 417-419"
           Slides and Notes:
-            - {Projections and SVM: "http://davidrosenberg.github.io/mlcourse/Labs/3hardSVM.pdf"}
+            - {Projections and SVM: "https://davidrosenberg.github.io/mlcourse/Archive/2016/Labs/3hardSVM.pdf"}
 -
   Title: Week 4
   Events:
@@ -112,15 +112,15 @@
       Topics:
         SGD and GD Revisited:
           Slides and Notes:
-            - {SGD and GD Revisited: "https://davidrosenberg.github.io/mlcourse/Lectures/4a.sgd-gd-revisited.pdf"}
+            - {SGD and GD Revisited: "https://davidrosenberg.github.io/mlcourse/Archive/2016/Lectures/4a.sgd-gd-revisited.pdf"}
         Subgradient descent:
           References (Supplemental):
             - {Boyd's subgradient notes: "http://web.stanford.edu/class/ee364b/lectures.html"}
           Slides and Notes:
-            - {Subgradient Methods: "https://davidrosenberg.github.io/mlcourse/Lectures/4b.subgradient-descent.pdf"}
+            - {Subgradient Methods: "https://davidrosenberg.github.io/mlcourse/Archive/2016/Lectures/4b.subgradient-descent.pdf"}
         Features:
           Slides and Notes:
-            - {Features: "https://davidrosenberg.github.io/mlcourse/Lectures/4c.features.pdf"}
+            - {Features: "https://davidrosenberg.github.io/mlcourse/Archive/2016/Lectures/4c.features.pdf"}
 
     2016-02-18:
       Label: Lab
@@ -128,7 +128,7 @@
       Topics:
         Kernel Methods:
           Slides and Notes:
-            - {Kernels: "https://davidrosenberg.github.io/mlcourse/Lectures/4d.kernels.pdf"}
+            - {Kernels: "https://davidrosenberg.github.io/mlcourse/Archive/2016/Lectures/4d.kernels.pdf"}
           References (Supplemental):
              - "HTF 12.3.1"
 #            - "KPM 14.2.1-14.2.6"
@@ -141,12 +141,12 @@
       Topics:
         Hilbert Spaces and Projections:
           Slides and Notes:
-            - {Hilbert Spaces and Projections: "https://davidrosenberg.github.io/mlcourse/Lectures/5a.hilbert-space.pdf"}
+            - {Hilbert Spaces and Projections: "https://davidrosenberg.github.io/mlcourse/Archive/2016/Lectures/5a.hilbert-space.pdf"}
           References (Supplemental):
             - "HTF 9.2"
         Kernel Methods:
           Slides and Notes:
-            - {Kernels: "https://davidrosenberg.github.io/mlcourse/Lectures/5b.kernel-methods.pdf"}
+            - {Kernels: "https://davidrosenberg.github.io/mlcourse/Archive/2016/Lectures/5b.kernel-methods.pdf"}
           References (Supplemental):
             - {Shalev-Shwartz and Ben-David's Book (Ch 16): "http://www.cs.huji.ac.il/~shais/UnderstandingMachineLearning/copy.html"}
             - "HTF 12.3.1"
@@ -158,7 +158,7 @@
       Topics:
         Regression Trees:
           Slides and Notes:
-            - {Regression Trees: "https://davidrosenberg.github.io/mlcourse/Lectures/5c.trees.pdf"}
+            - {Regression Trees: "https://davidrosenberg.github.io/mlcourse/Archive/2016/Lectures/5c.trees.pdf"}
           References (Supplemental):
             - "HTF 9.2"
 
@@ -170,7 +170,7 @@
       Topics:
         Classification Trees:
           Slides and Notes:
-            - {Classification Trees: "https://davidrosenberg.github.io/mlcourse/Lectures/6a.classification-trees.pdf"}
+            - {Classification Trees: "https://davidrosenberg.github.io/mlcourse/Archive/2016/Lectures/6a.classification-trees.pdf"}
           References (Supplemental):
             - "HTF 9.2"
         Review for One-Hour Test: []
@@ -186,7 +186,7 @@
       Topics:
         Bootstrap and Bagging:
           Slides and Notes:
-            - {"Bootstrap, Bagging, and Random Forests": "https://davidrosenberg.github.io/mlcourse/Lectures/7a.bagging-random-forests.pdf"}
+            - {"Bootstrap, Bagging, and Random Forests": "https://davidrosenberg.github.io/mlcourse/Archive/2016/Lectures/7a.bagging-random-forests.pdf"}
           References (Supplemental):
             - "HTF 8.7"
         Random Forests:
@@ -197,7 +197,7 @@
             - "HTF Ch. 10"
 #            - "KPM Ch. 16.4"
           Slides and Notes:
-            - {Boosting: "https://davidrosenberg.github.io/mlcourse/Lectures/7b.boosting.pdf"}
+            - {Boosting: "https://davidrosenberg.github.io/mlcourse/Archive/2016/Lectures/7b.boosting.pdf"}
     2016-03-10:
       Label: Project Adviser Meetings
       Topics: []
@@ -213,20 +213,20 @@
             - "HTF Ch. 10"
 #            - "KPM Ch. 16.4"
           Slides and Notes:
-            - {Adaboost: "https://davidrosenberg.github.io/mlcourse/Lectures/8a.adaboost.pdf"}
+            - {Adaboost: "https://davidrosenberg.github.io/mlcourse/Archive/2016/Lectures/8a.adaboost.pdf"}
         Gradient Boosting:
           References (Supplemental):
             - {Friedman's GBM Paper: http://statweb.stanford.edu/~jhf/ftp/trebst.pdf}
             - {Ridgeway's GBM Guide: http://www.saedsayad.com/docs/gbm2.pdf}
           Slides and Notes:
-            - {Gradient Boosting: "https://davidrosenberg.github.io/mlcourse/Lectures/8b.gradient-boosting.pdf"}
+            - {Gradient Boosting: "https://davidrosenberg.github.io/mlcourse/Archive/2016/Lectures/8b.gradient-boosting.pdf"}
     2016-03-24:
       Label: Lab
       Video: "http://techtalks.tv/talks/lab-mar-24th-2/62148/"
       Topics:
         Variations on Gradient Boosting:
           Slides and Notes:
-            - {More Boosting: "https://davidrosenberg.github.io/mlcourse/Lectures/8.Lab.more-boosting.pdf"}
+            - {More Boosting: "https://davidrosenberg.github.io/mlcourse/Archive/2016/Lectures/8.Lab.more-boosting.pdf"}
           References (Supplemental):
             - {XGBoost Paper: http://arxiv.org/abs/1603.02754}
             - {"Bühlmann and Hothorn's Boosting Paper": https://projecteuclid.org/euclid.ss/1207580163}
@@ -239,7 +239,7 @@
       Topics:
         Multiclass Classification:
           Slides and Notes:
-            - {Multiclass Classification: "https://davidrosenberg.github.io/mlcourse/Lectures/9a.multiclass.pdf"}
+            - {Multiclass Classification: "https://davidrosenberg.github.io/mlcourse/Archive/2016/Lectures/9a.multiclass.pdf"}
           References (Supplemental):
             - {Shalev-Shwartz and Ben-David's Book (Ch 17): "http://www.cs.huji.ac.il/~shais/UnderstandingMachineLearning/copy.html"}
 
@@ -258,15 +258,15 @@
       Topics:
         Conditional Probability Models:
           Slides and Notes:
-            - {CitySense and CabSense: "https://davidrosenberg.github.io/mlcourse/Lectures/10a.citysense.pdf"}
-            - {Conditional Probability Models: "https://davidrosenberg.github.io/mlcourse/Lectures/10b.conditional-probability-models.pdf"}
+            - {CitySense and CabSense: "https://davidrosenberg.github.io/mlcourse/Archive/2016/Lectures/10a.citysense.pdf"}
+            - {Conditional Probability Models: "https://davidrosenberg.github.io/mlcourse/Archive/2016/Lectures/10b.conditional-probability-models.pdf"}
     2016-04-07:
       Label: Lab
       Video: "https://www.youtube.com/watch?v=5nyRwIuqlME"
       Topics:
         Test Review:
           Slides and Notes:
-            - {Test Review: "https://davidrosenberg.github.io/mlcourse/Lectures/10.Lab.test-review.pdf"}
+            - {Test Review: "https://davidrosenberg.github.io/mlcourse/Archive/2016/Lectures/10.Lab.test-review.pdf"}
 #           References (Supplemental):
 #             - {Part III of Andrew Ng's CS 229 Notes: http://cs229.stanford.edu/notes/cs229-notes1.pdf}
 
@@ -290,10 +290,10 @@
         Bayesian Networks:
         Naive Bayes:
           Slides and Notes:
-            - {Bayesian Networks: "https://davidrosenberg.github.io/mlcourse/Lectures/12a.bayesian-networks.pdf"}
+            - {Bayesian Networks: "https://davidrosenberg.github.io/mlcourse/Archive/2016/Lectures/12a.bayesian-networks.pdf"}
         Bayesian Methods:
           Slides and Notes:
-            - {Bayesian Methods: "https://davidrosenberg.github.io/mlcourse/Lectures/12b.bayesian-methods.pdf"}
+            - {Bayesian Methods: "https://davidrosenberg.github.io/mlcourse/Archive/2016/Lectures/12b.bayesian-methods.pdf"}
     2016-04-21:
       Label: Lab
       Video: "https://www.youtube.com/watch?v=WCJu0yATu5o"
@@ -308,18 +308,18 @@
       Topics:
         Bayesian Regression:
           Slides and Notes:
-            - {Bayesian Regression: "https://davidrosenberg.github.io/mlcourse/Lectures/13a.bayesian-regression.pdf"}
+            - {Bayesian Regression: "https://davidrosenberg.github.io/mlcourse/Archive/2016/Lectures/13a.bayesian-regression.pdf"}
         k-means Clustering:
         Gaussian Mixture Models:
           Slides and Notes:
-             - {k-means and Mixture Models: "https://davidrosenberg.github.io/mlcourse/Lectures/13b.mixture-models.pdf"}
+             - {k-means and Mixture Models: "https://davidrosenberg.github.io/mlcourse/Archive/2016/Lectures/13b.mixture-models.pdf"}
     2016-04-28:
       Label: Lab
       Video: "http://techtalks.tv/talks/lab-apr-28th-2/62187/"
       Topics:
         EM Algorithm:
           Slides and Notes:
-             - {EM Algorithm: "https://davidrosenberg.github.io/mlcourse/Lectures/13.Lab.EM-algorithm.pdf"}
+             - {EM Algorithm: "https://davidrosenberg.github.io/mlcourse/Archive/2016/Lectures/13.Lab.EM-algorithm.pdf"}
           References (Supplemental):
             - {Vaida's EM convergence paper: "http://www3.stat.sinica.edu.tw/statistica/oldpdf/a15n316.pdf"}
 
@@ -331,10 +331,10 @@
       Topics:
         EM Algorithm (continued):
           Slides and Notes:
-            - {EM Algorithm: "https://davidrosenberg.github.io/mlcourse/Lectures/14a.EM-algorithm.pdf"}
+            - {EM Algorithm: "https://davidrosenberg.github.io/mlcourse/Archive/2016/Lectures/14a.EM-algorithm.pdf"}
         Neural Networks:
           Slides and Notes:
-             - {Neural Networks: "https://davidrosenberg.github.io/mlcourse/Lectures/14b.neural-networks.pdf"}
+             - {Neural Networks: "https://davidrosenberg.github.io/mlcourse/Archive/2016/Lectures/14b.neural-networks.pdf"}
     2016-05-05:
       Label: Project Adviser Meetings
       Topics: []
