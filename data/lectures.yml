@@ -4,7 +4,7 @@
   Events:
     2016-01-27:
       Label: Lecture
-      Video: "http://techtalks.tv/talks/lecture-jan-27th/62098/"
+      Video: "https://youtu.be/U6M0m9c9_Js"
       Topics:
         Course mechanics:
           References (Supplemental):
@@ -22,7 +22,7 @@
             - {Stochastic Gradient Descent: "https://davidrosenberg.github.io/mlcourse/Archive/2016/Lectures/1c.stoch-grad-descent.pdf"}
     2016-01-28:
       Label: Lab
-      Video: "http://techtalks.tv/talks/lecture-jan-28th-2/62100/"
+      Video: "https://www.youtube.com/watch?v=MEZiIfeqNNI"
       Topics:
         Matrix differentiation (Levent Sagun):
           References (Supplemental):
