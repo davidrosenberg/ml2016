@@ -27,7 +27,7 @@
         Matrix differentiation (Levent Sagun):
           References (Supplemental):
             - {Barnes's "Matrix Differentiation" notes: "http://www.atmos.washington.edu/~dennis/MatrixCalculus.pdf"}
-            - {Felippa's "Matrix Calculus" chapter: "http://www.colorado.edu/engineering/cas/courses.d/IFEM.d/IFEM.AppF.d/IFEM.AppF.pdf"}
+            - {Felippa's "Matrix Calculus" chapter: "http://www.colorado.edu/engineering/cas/courses.d/IFEM.d/IFEM.AppC.d/IFEM.AppC.pdf"}
           Slides and Notes:
             - {Levent's Differentiation Slides: "https://davidrosenberg.github.io/mlcourse/Archive/2016/Labs/1differentiation.pdf"}
             - {Matrix Differentiation: "https://davidrosenberg.github.io/ml2015/docs/matrix-differentiation.pdf"}
