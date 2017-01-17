@@ -49,7 +49,7 @@
         L1/L2 regularization:
           References (Supplemental):
             - "HTF Ch. 3"
-            - {Bottou's SGD Tricks: "refs/bottou-sgd-tricks-2012.pdf"}
+            - {Bottou's SGD Tricks: "http://leon.bottou.org/papers/bottou-tricks-2012"}
           Slides and Notes:
             - {L1 and L2 regularization: "https://davidrosenberg.github.io/mlcourse/Archive/2016/Lectures/2b.L1L2-regularization.pdf"}
             - {Completing the Square: "https://davidrosenberg.github.io/mlcourse/Archive/2016/Notes/completing-the-square.pdf"}
